@@ -1,0 +1,5 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'sample.blg'
+[52] biber-darwin:313> INFO - === Thu Jan 24, 2019, 10:25:00
+[246] Utils.pm:209> ERROR - Cannot find control file 'sample.bcf'! - Did latex run successfully on your .tex file before you ran biber?
+[246] Biber.pm:114> INFO - ERRORS: 1
