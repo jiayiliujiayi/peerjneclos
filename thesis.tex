@@ -10,8 +10,10 @@
 
 \documentclass[fleqn,10pt,lineno]{wlpeerj} % for journal submissions
 % \documentclass[fleqn,10pt]{wlpeerj} % for preprint submissions
+\usepackage{textcomp} %for \textgreater
+\usepackage{wasysym} %for \times
 
-\title{Patterened progression of gut microbiota predisposes preterm infants to necrotizin enterocolitis and late-onset sepsis: data from a non-Western population}
+\title{Patterned progression of gut microbiota predisposes preterm infants to necrotizing enterocolitis and late-onset sepsis: data from a non-Western population}
 
 \author[1]{Jiayi Liu}
 \author[2]{Jianhua Sun}
@@ -35,10 +37,13 @@
 \affil[9]{Department of Clinical Nutrition, Shanghai Children's Medical Center, School of Medicine Shanghai Jiao Tong University, Shanghai, China}
 \corrauthor[9]{Li Hong}{hongli@scmc.com.cn}
 
-% \keywords{Keyword1, Keyword2, Keyword3}
+%\keywords{Gut Microbiota, Preterm Infant, Necrotizing Enterocolitis, Neonatal Late Onset Sepsis, High Throughput DNA Sequencing, DADA2}
 
 \begin{abstract}
-Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text.
+\textbf{Background and Objectives} \\Intestinal microbiota dysbiosis might predispose preterm infants to necrotizing enteroclitis(NEC) and late-onset sepsis(LOS). In this observational prospective study, we aimed to profile and compare microbiota progression pattern in non-Western preterm patients who subsequently developed these two diseases. \\
+\textbf{Methods} \\We enrolled preterm infants with gestational age less than 33 weeks and birth weight more than 950g, from July 2013 to December 2014, among whom four subsequently developed NEC, three LOS, and the rest 17 were healthy controls. We began fecal sample collection from the the first stool after birth and prospectively collected until discharge. Bacterial V3~V4 region of 16s rRNA genes from each stool sample were amplified, sequenced and analyzed. \\
+\textbf{Results}\\A total of 192 fecal samples from 24 patiens were studied, of whom four developed NEC, three LOS; the remaining 17 were used as controls. [The postpartum gut microbiota colonization started to diverge among NEC, LOS and their matched control groups, from the second week after birth.  Microbiota of the LOS infants was the least diversified (Shannon index=1.66), while that of the control group was the most diversified(Shannon index=0.88, p=0.01). Potentially pathogenic genus Enterococcus (20.86\%) and Staphylococcus (8.67\%) were prominent in NEC patients and Klebsiella (42.15\%) in LOS group. Both two groups addressed lower proportion of Lactococcus (7.98\% and 13.76\% in NEC and LOS group, respectively) than the control group (3.66\%)].\\
+\textbf{Conclusions}\\Postpartum colonization pattern of gut microbiome might predispose preterm newborns to NEC or LOS, in which reduced diversity of the whole microbiota community and potentially pathogenic genus could have played an essential role in disease progression. Still, more studies are needed to identify etiological strains, underlying mechanisms and correspondent microbial patterns.
 \end{abstract}
 
 \begin{document}
@@ -53,11 +58,34 @@ Your introduction goes here! Some examples of commonly used commands and feature
 
 If you have a question, please use the help menu in the top right of the screen to get in touch. When your article or pre-print is complete, use the "Submit to PeerJ" button in the topbar to send your files to PeerJ.
 
-\subsection*{About PeerJ}
+\section*{Methods}
+  \subsection*{Ethics}
+  This study was approved by the joint committee of ethics of Shanghai Children’s Medical Center, School of Medicine Shanghai Jiao Tong University (SCMCIRB-K2013022). Detailed written informed consent was obtained from the parents prior to fecal sample collection.
 
-PeerJ is an award-winning open access publisher covering the biological and medical sciences.  PeerJ provides authors with three publication venues: \textit{PeerJ} and \textit{PeerJ Computer Science} (peer-reviewed academic journals) and \textit{PeerJ PrePrints} (a 'pre-print server'). See https://peerj.com/about/publications/ for more information.
+  \subsection*{Patients}
+  Newly born preterm infants with gestational age less than 33 weeks, birth weight over 950g were enrolled from Neonatal Intensive Care Unit at Shanghai Children’s Medical Center from July 2013 to December 2014. The exclusion criteria were 1) diagnosed with early-onset sepsis, 2) hepatic diseases, 3) renal impairment (Cr \textgreater 88 $\mu$M), 4) diagnosed with intestinal obstruction, 5) in foreseeable need of cardiovascular or abdominal surgeries (except for male circumcision or PDA ligation), 6) estimated parenteral support to supply over 50\% of daily caloric intake for more than four days, 7) given intravenous antibiotics administration (except prophylactic regimen of cefotaxime, piperacillin-tazobactam and/or metronidazole), 8) history of oral antibiotics administration, 9) grossly bloody stools at admission, and 10) over five days old.
 
-The PeerJ model allows an author to publish articles in their peer-reviewed journal via the purchase of a lifetime Publication Plan. Prices start from just \$99 (a one-off payment) which entitles an author to the lifetime ability to publish 1 article per year for free. Publication in PeerJ PrePrints is entirely free.
+  NEC cases were defined as infants who met the criteria for Stage II and Stage III NEC disgnosis(Bell et al., 1978), including radiographic intestinal dilation, ileus, pneumatosis intestinalis, and/or absent bowel sounds with or without abdominal tenderness, and/or mild metabolic acidosis and thrombocytopenia. LOS cases was diagnosed if 1)an infant had a positive hemoculture or other suspicious loci of infection after 72 hours of life, with septic signs/symptoms reviewed independently by at least two neonatologists, and had been treated with advanced antibiotics (e.g., Meropenem) after diagnosis. Infants with no infectious complications or sepsis were regarded as controls.
+
+  \subsection*{Sample collection and handling}
+  Fecal samples collection began from neonatal meconium till discharge.   Although we intended to collect fecal samples on a daily basis, due to working shifts and flexible clinical scheduling, we set seven days as the maximum interval between two collections from every infant. Every sample was collected within 30 minutes of defecation from patients' diaper with a sterile spatula. The samples were immediately placed in a cryogenic vial on dry ice and stored at 80\textdegree{}C within 30 minutes without additives. All samples were collected and stored before knowing the diagnosis of respective patients.
+
+  \subsection*{DNA extraction and quality control amplification and 16s rRNA gene sequencing}
+  Microbial genomic DNA was isolated from each fecal specimen using the E.Z.N.A.® Soil DNA Kit (Omega Bio-Tek, Norcross, GA, U.S.) according to manufacturer’s protocols. The concentration and purity of the DNA were determined by NanoDrop 2000 UV-vis spectrophotometer (Thermo Scientific, Wilmington, USA), and the DNA quality was checked by 1\% agarose gel electrophoresis.
+
+  \subsection*{Broad-range PCR and High-throuput Sequencing of 16s rRNA gene amplicons}
+  The V3-V4 hypervariable regions of the bacterial 16S rRNA gene were amplified from each sample using bacterial/archaeal primers 338F (5’-ACTCCTACGGGAGGCAGCAG-3’) and 806R (5’-GGACTACHVGG GTWTCTAAT-3’) using thermocycler PCR system (GeneAmp 9700, ABI, USA). The PCR reactions were as follows: 3 min of denaturation at 95 °C, 27 cycles of 30 s at 95 °C, 30 s annealing at 55 °C and 45 s elongation at 72 °C, and a final extension at 72 °C for 10 min. The PCR reactions were performed in triplicate, with each 20 $\mu$L mixture containing 4 $\mu$L 5X FastPfu Buffer, 2 $\mu$L 2.5 mM dNTPs, 0.8 $\mu$L of each primer (5 $\mu$M), 0.4 $\mu$L FastPfu Polymerase and 10 ng template DNA. The PCR products were extracted from a 2\% agarose gel and further purified using the AxyPrep DNA Gel Extraction Kit (Axygen Biosciences, Union City, CA, USA), and quantified using QuantiFluor™-ST (Promega, USA) according to the manufacturer’s protocols.
+
+  Equimolar amounts of purified amplicons were pooled and paired-end sequenced (2 x 300) on an Illumina MiSeq platform (Illumina, San Diego, USA) according to the standard protocols of Majorbio Bio-Pharm Technology Co. Ltd. (Shanghai, China). The reads were de-multiplexed using the Illumina software, and separate FASTQ files were generated for each specimen and deposited to the Sequence Read Archive NCBI under the BioProject accession No. PRJNA470548.
+
+  \subsection*{}
+
+
+
+
+
+
+
 
 \section*{Some \LaTeX{} Examples}
 \label{sec:examples}
