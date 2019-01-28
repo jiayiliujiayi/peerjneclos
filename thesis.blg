@@ -4,45 +4,45 @@ The top-level auxiliary file: thesis.aux
 The style file: apalike.bst
 Database file #1: thesis.bib
 Warning--I didn't find a database entry for "Figueredo:2009dg"
-You've used 1 entry,
+You've used 7 entries,
             1935 wiz_defined-function locations,
-            479 strings with 3997 characters,
-and the built_in function-call counts, 503 in all, are:
-= -- 41
-> -- 38
+            527 strings with 5433 characters,
+and the built_in function-call counts, 3642 in all, are:
+= -- 328
+> -- 246
 < -- 0
-+ -- 14
-- -- 14
-* -- 50
-:= -- 98
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 12
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 14
-empty$ -- 25
-format.name$ -- 15
-if$ -- 89
++ -- 92
+- -- 90
+* -- 369
+:= -- 657
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 78
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 98
+empty$ -- 202
+format.name$ -- 97
+if$ -- 671
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 3
-pop$ -- 10
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 21
+pop$ -- 64
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 78
 quote$ -- 0
-skip$ -- 11
+skip$ -- 73
 stack$ -- 0
-substring$ -- 15
-swap$ -- 1
+substring$ -- 222
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 42
 warning$ -- 0
-while$ -- 3
+while$ -- 25
 width$ -- 0
-write$ -- 15
+write$ -- 93
 (There was 1 warning)
