@@ -3,46 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: apalike.bst
 Database file #1: thesis.bib
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Figueredo:2009dg"
-You've used 7 entries,
+You've used 10 entries,
             1935 wiz_defined-function locations,
-            527 strings with 5433 characters,
-and the built_in function-call counts, 3642 in all, are:
-= -- 328
-> -- 246
+            549 strings with 6398 characters,
+and the built_in function-call counts, 5356 in all, are:
+= -- 475
+> -- 385
 < -- 0
-+ -- 92
-- -- 90
-* -- 369
-:= -- 657
-add.period$ -- 21
-call.type$ -- 7
-change.case$ -- 78
-chr.to.int$ -- 7
-cite$ -- 7
-duplicate$ -- 98
-empty$ -- 202
-format.name$ -- 97
-if$ -- 671
++ -- 146
+- -- 142
+* -- 548
+:= -- 971
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 117
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 140
+empty$ -- 284
+format.name$ -- 152
+if$ -- 982
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 38
-num.names$ -- 21
-pop$ -- 64
+missing$ -- 10
+newline$ -- 53
+num.names$ -- 30
+pop$ -- 97
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 117
 quote$ -- 0
-skip$ -- 73
+skip$ -- 105
 stack$ -- 0
-substring$ -- 222
-swap$ -- 7
+substring$ -- 303
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
+type$ -- 60
 warning$ -- 0
-while$ -- 25
+while$ -- 35
 width$ -- 0
-write$ -- 93
-(There was 1 warning)
+write$ -- 132
+(There were 2 warnings)
