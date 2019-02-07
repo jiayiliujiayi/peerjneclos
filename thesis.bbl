@@ -42,6 +42,12 @@ Madan, J.~C., Farzan, S.~F., Hibberd, P.~L., and Karagas, M.~R. (2012).
   factors, infection and allergy.
 \newblock {\em Current opinion in pediatrics}, 24(6):753.
 
+\bibitem[Mago{\v{c}} and Salzberg, 2011]{magovc2011flash}
+Mago{\v{c}}, T. and Salzberg, S.~L. (2011).
+\newblock Flash: fast length adjustment of short reads to improve genome
+  assemblies.
+\newblock {\em Bioinformatics}, 27(21):2957--2963.
+
 \bibitem[Quast et~al., 2012]{quast2012silva}
 Quast, C., Pruesse, E., Yilmaz, P., Gerken, J., Schweer, T., Yarza, P.,
   Peplies, J., and Gl{\"o}ckner, F.~O. (2012).

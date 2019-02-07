@@ -76,7 +76,7 @@ late onset sepsis is
   NEC cases were defined as infants who met the criteria for Stage II and Stage III NEC disgnosis\citep{bell1978neonatal}, including radiographic intestinal dilation, ileus, pneumatosis intestinalis, and/or absent bowel sounds with or without abdominal tenderness, and/or mild metabolic acidosis and thrombocytopenia. LOS cases was diagnosed if 1)an infant had a positive hemoculture or other suspicious loci of infection after 72 hours of life, with septic signs/symptoms reviewed independently by at least two neonatologists, and had been treated with advanced antibiotics (e.g., Meropenem) after diagnosis. Infants with no infectious complications or sepsis were regarded as controls.
 
   \subsection*{Sample collection and handling}
-  Fecal samples collection began from neonatal meconium till discharge.   Although we intended to collect fecal samples on a daily basis, due to working shifts and flexible clinical scheduling, we set seven days as the maximum interval between two collections from every infant. Every sample was collected within 30 minutes of defecation from patients' diaper with a sterile spatula. The samples were immediately placed in a cryogenic vial on dry ice and stored at 80\textdegree{}C within 30 minutes without additives. All samples were collected and stored before knowing the diagnosis of respective patients.
+  Fecal samples collection began from neonatal meconium till discharge. Although we intended to collect fecal samples on a daily basis, due to working shifts and flexible clinical scheduling, we set seven days as the maximum interval between two collections from every infant. Every sample was collected within 30 minutes of defecation from patients' diaper with a sterile spatula. The samples were immediately placed in a cryogenic vial on dry ice and stored at 80\textdegree{}C within 30 minutes without additives. All samples were collected and stored before knowing the diagnosis of respective patients.
 
   \subsection*{DNA extraction and quality control amplification and 16s rRNA gene sequencing}
   Microbial genomic DNA was isolated from each fecal specimen using the E.Z.N.A.® Soil DNA Kit (Omega Bio-Tek, Norcross, GA, U.S.) according to manufacturer’s protocols. The concentration and purity of the DNA were determined by NanoDrop 2000 UV-vis spectrophotometer (Thermo Scientific, Wilmington, USA), and the DNA quality was checked by 1\% agarose gel electrophoresis.
@@ -88,17 +88,13 @@ late onset sepsis is
   Equimolar amounts of purified amplicons were pooled and paired\-end sequenced (2 x 300) on an Illumina MiSeq platform (Illumina, San Diego, USA) according to the standard protocols of Majorbio Bio-Pharm Technology Co. Ltd. (Shanghai, China). The reads were de-multiplexed using the Illumina software and separate FASTQ files were generated for each specimen and deposited to the Sequence Read Archive NCBI under the BioProject accession PRJNA470548. Another public archive repository is available at \href{https://figshare.com/articles/Untitled_Item192_samples_for_publishing_Longitudinal_gut_microbiota_patterns_in_preterm_infants_with_necrotizing_enterocolitis_or_late-onset_sepsis_an_observational_prospective_study_/7205102}{figshare doi: 10.6084/m9.figshare.7205102}
 
   \subsection*{Raw Data Processing}
-  After pyrosequencing, de-multiplexed sequence reads were subjected to quality filtering utilizing Trimmomatic software\citep{bolger2014trimmomatic}version????),  and were truncated at any site with an Phred score \textless 20 over a 50bp-sized window; barcode matching with the primer mismatch from 0 to 2 nucleotides was adopted and reads containing ambiguous characters were removed. After trimming, FLASh(Fast Length Adjustment of Short Read)\citep{magovc2011flash}, a read pre-processing software, assembled and merged the paired-end reads from fragments and generated \textgreater 10 bp overlapped, with the dead match ratio 0.2. Unassembled reads were discarded.
+  After pyrosequencing, de-multiplexed sequence reads were subjected to quality filtering utilizing Trimmomatic software\citep{bolger2014trimmomatic}version????),  and were truncated at any site with an Phred score \textless 20 over a 50bp-sized window; barcode matching with the primer mismatch from 0 to 2 nucleotides was adopted and reads containing ambiguous characters were removed. After trimming, FLASh(Fast Length Adjustment of Short Read)\citep{magovc2011flash}, a read pre-processing software, assembled and merged the paired-end reads from fragments and generated \textgreater 10 bp overlapped, with the dead match ratio 0.2. Unassembled reads were discarded. As a result, 7,472,400 V3-V4 tags of 16s rRNA gene were produced, with an average length of 448 bp.(Table S1)
 
   \noindent
   To fairly compare all the samples at the same sequencing depth, the "sub.sample" command of mothur program(version1.30.1)\citep{schloss2009introducing} was used for normalization to the smallest sample size. \href{https://www.drive5.com/usearch/manual/uchime_algo.html}{UCHIME Algorithm} detected chimeric sequences, removed chimera to obtain effective reads, which were then sorted by cluster size and processed using Operational Taxonomic Units(OTUs) were clustered with 97\% similarity cutoff using \href{http://drive5.com/uparse/}{USEARCH v7}(UPARSE version 7.1). The taxonomy of each 16S rRNA gene sequence was analyzed by \href{http://rdp.cme.msu.edu/}{RDP Classifier algorithm}\citep{wang2007naive} against the Silva (SSU128)\citep{quast2012silva} 16S rRNA database using confidence threshold of 70\%. Each sequence was assigned the taxonomy by QIIME\citep{caporaso2010qiime}. The representative sequences were allocated phylogenetically down to the domain, phylum, class, order, family, and genus levels. The relative abundance of a given taxonomic group was calculated as a percentage of the sequences number belonging to that group devided by the total number of obtained sequences.
 
   \noindent
    Alpha diversty analysis, including Shannon index and Observed species richness (sobs), were obtained using the "summary.single" command of mothur program(version1.30.1).
-
-
-  \subsection*{Bacterial Species Classification Reference Set Creation}
-
 
   \subsection*{Statistical and Bioinformatics Analysis}
     \subsubsection*{Demographics and Clinical Sample comparisons}
@@ -113,9 +109,12 @@ late onset sepsis is
 
 
 \section*{Results}
-\subsection*{Patients and samples characteristics}
+  \subsection*{Patients and samples characteristics}
+   Totally 130 infants met the criteria of our study, and 1698 samples were collected from them. We studied 192 samples from 24 well-sampled preterm infants, including four subsequently diagnosed with NEC (2 in stage IIA and 2 in stage IIB), three with LOS, and 17 matched controls (Table S2).
+  \noindent
+   Comparisons showed no significant difference in terms of gestational age, birth weight and gender proportions, diagnosed age among three groups (Table 1). Lenth of stay mong three groups was significantly different however rational since NEC and LOS patients usually require longer period of healthcare because of there worse conditions compared with the control group.
+   All infants were delivered by cesarean section and fed on infant formula. No one was prescribed probiotics during hospitalization.
 
-After raw data quality control, 7,472,400 V3-V4 tags of 16s rRNA gene were produced, with an average length of 448 bp.(Table S1)
 \section*{Discussion}
 Previous studies have
 
@@ -123,6 +122,8 @@ Previous studies have
 
 \section*{Conclusions}
 Necrotizing enterocolitis, a worldwidely concern that threatern
+
+We acknowledge that the sample size is limited since this study is single-center-based and the incidence of both diseases are relatively low: among the 1148 preterm infants admitted within July 2013 to December 2014, only five developed NEC.
 
 \section*{Acknowledgments}
 We appreciate the support from enrolled patients, their families, and all staffs at Shanghai Children’s Medical Center.
