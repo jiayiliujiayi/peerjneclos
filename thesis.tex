@@ -88,32 +88,48 @@ late onset sepsis is
   Equimolar amounts of purified amplicons were pooled and paired\-end sequenced (2 x 300) on an Illumina MiSeq platform (Illumina, San Diego, USA) according to the standard protocols of Majorbio Bio-Pharm Technology Co. Ltd. (Shanghai, China). The reads were de-multiplexed using the Illumina software and separate FASTQ files were generated for each specimen and deposited to the Sequence Read Archive NCBI under the BioProject accession PRJNA470548. Another public archive repository is available at \href{https://figshare.com/articles/Untitled_Item192_samples_for_publishing_Longitudinal_gut_microbiota_patterns_in_preterm_infants_with_necrotizing_enterocolitis_or_late-onset_sepsis_an_observational_prospective_study_/7205102}{figshare doi: 10.6084/m9.figshare.7205102}
 
   \subsection*{Raw Data Processing}
-  After pyrosequencing, de-multiplexed sequence reads were subjected to quality filtering utilizing Trimmomatic software\citep{bolger2014trimmomatic}version????),  and were truncated at any site with an Phred score \textless 20 over a 50bp-sized window; barcode matching with the primer mismatch from 0 to 2 nucleotides was adopted and reads containing ambiguous characters were removed. After trimming, FLASh(Fast Length Adjustment of Short Read)\citep{magovc2011flash}, a read pre-processing software, assembled and merged the paired-end reads from fragments and generated \textgreater 10 bp overlapped, with the dead match ratio 0.2. Unassembled reads were discarded. As a result, 7,472,400 V3-V4 tags of 16s rRNA gene were produced, with an average length of 448 bp.(Table S1)
+  After pyrosequencing, de-multiplexed sequence reads were subjected to quality filtering utilizing Trimmomatic software(version????)\citep{bolger2014trimmomatic},  and were truncated at any site with an Phred score \textless 20 over a 50bp-sized window; barcode matching with the primer mismatch from 0 to 2 nucleotides was adopted and reads containing ambiguous characters were removed. After trimming, FLASh(Fast Length Adjustment of Short Read)\citep{magovc2011flash}, a read pre-processing software, assembled and merged the paired-end reads from fragments and generated \textgreater 10 bp overlapped, with the dead match ratio 0.2. Unassembled reads were discarded. As a result, 7,472,400 V3-V4 tags of 16s rRNA gene were produced, with an average length of 448 bp.(Table S1)
 
   \noindent
   To fairly compare all the samples at the same sequencing depth, the "sub.sample" command of mothur program(version1.30.1)\citep{schloss2009introducing} was used for normalization to the smallest sample size. \href{https://www.drive5.com/usearch/manual/uchime_algo.html}{UCHIME Algorithm} detected chimeric sequences, removed chimera to obtain effective reads, which were then sorted by cluster size and processed using Operational Taxonomic Units(OTUs) were clustered with 97\% similarity cutoff using \href{http://drive5.com/uparse/}{USEARCH v7}(UPARSE version 7.1). The taxonomy of each 16S rRNA gene sequence was analyzed by \href{http://rdp.cme.msu.edu/}{RDP Classifier algorithm}\citep{wang2007naive} against the Silva (SSU128)\citep{quast2012silva} 16S rRNA database using confidence threshold of 70\%. Each sequence was assigned the taxonomy by QIIME\citep{caporaso2010qiime}. The representative sequences were allocated phylogenetically down to the domain, phylum, class, order, family, and genus levels. The relative abundance of a given taxonomic group was calculated as a percentage of the sequences number belonging to that group devided by the total number of obtained sequences.
 
   \noindent
-   Alpha diversty analysis, including Shannon index and Observed species richness (sobs), were obtained using the "summary.single" command of mothur program(version1.30.1).
+   Within-sample diversity(alpha diversty) analysis, including Shannon index and Observed species richness (sobs), were obtained using the "summary.single" command of mothur program(version1.30.1)\citep{schloss2009introducing}. Between-sample diversity(beta diversity) analysis was obtained estimating weighted UniFrac distances between samples.
 
   \subsection*{Statistical and Bioinformatics Analysis}
     \subsubsection*{Demographics and Clinical Sample comparisons}
-    Non-parametric tests, including Kruskal-Wallis test and Wilcoxon rank-sum test were used to compare gestational age, birth weight, age when the patients were diagnosed as NEC or LOS and length of stay at $\alpha$ level of 0.05 among three groups. All statistical test not involving microbiome 16s rRNA sequencing data was performed using \textit{"stats"} package using R(v.3.5.1).
+    Non-parametric tests, including Kruskal-Wallis test and Wilcoxon rank-sum test were used to compare gestational age, birth weight, age when the patients were diagnosed as NEC or LOS and length of stay. Fisher's exact test were used to compare gender ratios among three groups. $\alpha$ level was set as 0.05. All statistical test not involving microbiome 16s rRNA sequencing data was performed using \textit{"stats"} package using R(v.3.5.1).
     \subsubsection*{Microbiota and Bioinformatics Analyses}
+      \paragraph*{Disease-related Time Interval Determination}
+      Under the circumstance that the sampling and disease onset timepoints for each patient were not perfectly universal, to illustrated the continuous longitudinal and repeated nature of the sampling and its relationship with onset and progression of diseases, we seperated the whole sampling span into 7 time intervals:
+        \begin{enumerate}[noitemsep]
+          \item early post-partum(EPP): within 3 days afterbirth
+          \item early pre-onset(EPO): from the end of EPP to at least four days befor disease onset
+          \item late pre-onset(LPO): from the end of EPO to the start of onset
+          \item early disease: first third interval of whole disease span
+          \item middle disease: second third interval of whole disease span
+          \item late disease: last third interval of whole disease span
+          \item post disease: from the end of disease to discharge timepoint
+        \end{enumerate}
+      \paragraph*{modeling strategies}
+      To compare the dynamics of microbiota diversity and taxonomic abundance preciding the disease, we established the statistical model taking into account the EPP, EPO, LPO and ED among three groups.
+      To compare the microbiome profile within the whole 
+
+
+
+
+
     \subsubsection*{Figures}
     Figures were generated with the \textit{"ggpubr"}\citep{kassambara2017ggpubr} and \textit{"ggplot2"}\citep{ggplot2} packages using R(v.3.5.1)
 
-
-
-
-
-
 \section*{Results}
-  \subsection*{Patients and samples characteristics}
+  \subsection*{Patients characteristics}
    Totally 130 infants met the criteria of our study, and 1698 samples were collected from them. We studied 192 samples from 24 well-sampled preterm infants, including four subsequently diagnosed with NEC (2 in stage IIA and 2 in stage IIB), three with LOS, and 17 matched controls (Table S2).
   \noindent
    Comparisons showed no significant difference in terms of gestational age, birth weight and gender proportions, diagnosed age among three groups (Table 1). Lenth of stay mong three groups was significantly different however rational since NEC and LOS patients usually require longer period of healthcare because of there worse conditions compared with the control group.
    All infants were delivered by cesarean section and fed on infant formula. No one was prescribed probiotics during hospitalization.
+
+   \subsection*{Microbiota Diversity}
 
 \section*{Discussion}
 Previous studies have
