@@ -60,7 +60,7 @@ Gut microbiota is a key contributor to human health and the dysbiosis of which a
 In preterm infants, necrotizing enterocolitis and late onset sepsis
 
 \noindent
-Necrotizing enterocolitis, characterized by rapid progression, high morbidity and mortality, is one of the most devastating gestrointestinal neonatal emergencies, especially in preterm newborns. Previous studies have suggested well how intestinal microbiota pattern is implicated prior to, during and after the course of this condition. Mai et al. reported an increase in the Proteobacteria and a decrease in the Firmicutes phyla during three to seven days prior to NEC onset (Mai et al., 2011). Zhou et al. found a relatively higher abundance of Clostridium and Gamma-Proteobacteria in the proximity of NEC during early and late onset, respectively (Zhou et al., 2015).
+Necrotizing enterocolitis, characterized by rapid progression, high morbidity and mortality, is one of the most devastating gestrointestinal neonatal emergencies, especially in preterm newborns. Previous studies have suggested well how intestinal microbiota pattern is implicated prior to, during and after the course of this condition. Mai et al. reported an increase in the Proteobacteria and a decrease in the Firmicutes phyla during three to seven days prior to NEC onset (Mai et al., 2011). Zhou et al. found a relatively higher abundance of Clostridium and Gamma-Proteobacteria in the proximity of NEC during early and late onset, respectively\citep{zhou2015longitudinal}.
 
 late onset sepsis is
 
@@ -82,18 +82,31 @@ late onset sepsis is
   Microbial genomic DNA was isolated from each fecal specimen using the E.Z.N.A.® Soil DNA Kit (Omega Bio-Tek, Norcross, GA, U.S.) according to manufacturer’s protocols. The concentration and purity of the DNA were determined by NanoDrop 2000 UV-vis spectrophotometer (Thermo Scientific, Wilmington, USA), and the DNA quality was checked by 1\% agarose gel electrophoresis.
 
   \subsection*{Broad-range PCR and High-throuput Sequencing of 16s rRNA gene amplicons}
-  The V3-V4 hypervariable regions of the bacterial 16S rRNA gene were amplified from each sample using bacterialarchaeal primers 338F (5’-ACTCCTACGGGAGGCAGCAG-3’) and 806R (5’-GGACTACHVGG GTWTCTAAT-3’) using thermocycler PCR system (GeneAmp 9700, ABI, USA). The PCR reactions were as follows: 3 min of denaturation at 95 °C, 27 cycles of 30 s at 95 °C, 30 s annealing at 55 °C and 45 s elongation at 72 °C, and a final extension at 72 °C for 10 min. The PCR reactions were performed in triplicate, with each 20 $\mu$L mixture containing 4 $\mu$L 5X FastPfu Buffer, 2 $\mu$L 2.5 mM dNTPs, 0.8 $\mu$L of each primer (5 $\mu$M), 0.4 $\mu$L FastPfu Polymerase and 10 ng template DNA. The PCR products were extracted from a 2\% agarose gel and further purified using the AxyPrep DNA Gel Extraction Kit (Axygen Biosciences, Union City, CA, USA), and quantified using QuantiFluor™-ST (Promega, USA) according to the manufacturer’s protocols.
+  The V3-V4 hypervariable regions of the bacterial 16S rRNA gene were amplified from each sample using bacterial\/archaeal primers 338F (5’-ACTCCTACGGGAGGCAGCAG-3’) and 806R (5’-GGACTACHVGG GTWTCTAAT-3’) using thermocycler PCR system (GeneAmp 9700, ABI, USA). The PCR reactions were as follows: 3 min of denaturation at 95 °C, 27 cycles of 30 s at 95 °C, 30 s annealing at 55 °C and 45 s elongation at 72 °C, and a final extension at 72 °C for 10 min. The PCR reactions were performed in triplicate, with each 20 $\mu$L mixture containing 4 $\mu$L 5X FastPfu Buffer, 2 $\mu$L 2.5 mM dNTPs, 0.8 $\mu$L of each primer (5 $\mu$M), 0.4 $\mu$L FastPfu Polymerase and 10 ng template DNA. The PCR products were extracted from a 2\% agarose gel and further purified using the AxyPrep DNA Gel Extraction Kit (Axygen Biosciences, Union City, CA, USA), and quantified using QuantiFluor™-ST (Promega, USA) according to the manufacturer’s protocols.
 
   \noindent
-  Equimolar amounts of purified amplicons were pooled and paired-end sequenced (2 x 300) on an Illumina MiSeq platform (Illumina, San Diego, USA) according to the standard protocols of Majorbio Bio-Pharm Technology Co. Ltd. (Shanghai, China). The reads were de-multiplexed using the Illumina software and separate FASTQ files were generated for each specimen and deposited to the Sequence Read Archive NCBI under the BioProject accession PRJNA470548. Another public archive repository is available at \href{https://figshare.com/articles/Untitled_Item192_samples_for_publishing_Longitudinal_gut_microbiota_patterns_in_preterm_infants_with_necrotizing_enterocolitis_or_late-onset_sepsis_an_observational_prospective_study_/7205102}{figshare doi: 10.6084/m9.figshare.7205102}
+  Equimolar amounts of purified amplicons were pooled and paired\-end sequenced (2 x 300) on an Illumina MiSeq platform (Illumina, San Diego, USA) according to the standard protocols of Majorbio Bio-Pharm Technology Co. Ltd. (Shanghai, China). The reads were de-multiplexed using the Illumina software and separate FASTQ files were generated for each specimen and deposited to the Sequence Read Archive NCBI under the BioProject accession PRJNA470548. Another public archive repository is available at \href{https://figshare.com/articles/Untitled_Item192_samples_for_publishing_Longitudinal_gut_microbiota_patterns_in_preterm_infants_with_necrotizing_enterocolitis_or_late-onset_sepsis_an_observational_prospective_study_/7205102}{figshare doi: 10.6084/m9.figshare.7205102}
+
+  \subsection*{Raw Data Processing}
+  After pyrosequencing, de-multiplexed sequence reads were subjected to quality filtering utilizing Trimmomatic software\citep{bolger2014trimmomatic}version????),  and were truncated at any site with an Phred score \textless 20 over a 50bp-sized window; barcode matching with the primer mismatch from 0 to 2 nucleotides was adopted and reads containing ambiguous characters were removed. After trimming, FLASh(Fast Length Adjustment of Short Read)\citep{magovc2011flash}, a read pre-processing software, assembled and merged the paired-end reads from fragments and generated \textgreater 10 bp overlapped, with the dead match ratio 0.2. Unassembled reads were discarded.
+
+  \noindent
+  To fairly compare all the samples at the same sequencing depth, the "sub.sample" command of mothur program(version1.30.1)\citep{schloss2009introducing} was used for normalization to the smallest sample size. \href{https://www.drive5.com/usearch/manual/uchime_algo.html}{UCHIME Algorithm} detected chimeric sequences, removed chimera to obtain effective reads, which were then sorted by cluster size and processed using Operational Taxonomic Units(OTUs) were clustered with 97\% similarity cutoff using \href{http://drive5.com/uparse/}{USEARCH v7}(UPARSE version 7.1). The taxonomy of each 16S rRNA gene sequence was analyzed by \href{http://rdp.cme.msu.edu/}{RDP Classifier algorithm}\citep{wang2007naive} against the Silva (SSU128)\citep{quast2012silva} 16S rRNA database using confidence threshold of 70\%. Each sequence was assigned the taxonomy by QIIME\citep{caporaso2010qiime}. The representative sequences were allocated phylogenetically down to the domain, phylum, class, order, family, and genus levels. The relative abundance of a given taxonomic group was calculated as a percentage of the sequences number belonging to that group devided by the total number of obtained sequences.
+
+  \noindent
+   Alpha diversty analysis, including Shannon index and Observed species richness (sobs), were obtained using the "summary.single" command of mothur program(version1.30.1).
+
 
   \subsection*{Bacterial Species Classification Reference Set Creation}
 
 
-  \subsection*{Statistical Analysis}
+  \subsection*{Statistical and Bioinformatics Analysis}
     \subsubsection*{Demographics and Clinical Sample comparisons}
-    Non-parametric tests, including Kruskal-Wallis test and Wilcoxon rank-sum test were used to compare gestational age, birth weight, age when the patients were diagnosed as NEC or LOS and length of stay at $\alpha$ level of 0.05 among three groups. All statistical test not involving microbiome 16s rRNA sequencing data was performed using \textit{"stats"} R package using R(v.3.5.1).
-    \subsubsection*{Microbiota Analyses}
+    Non-parametric tests, including Kruskal-Wallis test and Wilcoxon rank-sum test were used to compare gestational age, birth weight, age when the patients were diagnosed as NEC or LOS and length of stay at $\alpha$ level of 0.05 among three groups. All statistical test not involving microbiome 16s rRNA sequencing data was performed using \textit{"stats"} package using R(v.3.5.1).
+    \subsubsection*{Microbiota and Bioinformatics Analyses}
+    \subsubsection*{Figures}
+    Figures were generated with the \textit{"ggpubr"}\citep{kassambara2017ggpubr} and \textit{"ggplot2"}\citep{ggplot2} packages using R(v.3.5.1)
+
 
 
 
@@ -102,13 +115,14 @@ late onset sepsis is
 \section*{Results}
 \subsection*{Patients and samples characteristics}
 
+After raw data quality control, 7,472,400 V3-V4 tags of 16s rRNA gene were produced, with an average length of 448 bp.(Table S1)
 \section*{Discussion}
 Previous studies have
 
 
 
 \section*{Conclusions}
-Necrotizing enterocolitis,  a worldwidely concern that threatern
+Necrotizing enterocolitis, a worldwidely concern that threatern
 
 \section*{Acknowledgments}
 We appreciate the support from enrolled patients, their families, and all staffs at Shanghai Children’s Medical Center.

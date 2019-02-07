@@ -4,46 +4,47 @@ The top-level auxiliary file: thesis.aux
 The style file: apalike.bst
 Database file #1: thesis.bib
 Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "magovc2011flash"
 Warning--I didn't find a database entry for "Figueredo:2009dg"
-You've used 10 entries,
+You've used 18 entries,
             1935 wiz_defined-function locations,
-            549 strings with 6398 characters,
-and the built_in function-call counts, 5356 in all, are:
-= -- 475
-> -- 385
-< -- 0
-+ -- 146
-- -- 142
-* -- 548
-:= -- 971
-add.period$ -- 30
-call.type$ -- 10
-change.case$ -- 117
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 140
-empty$ -- 284
-format.name$ -- 152
-if$ -- 982
+            602 strings with 8396 characters,
+and the built_in function-call counts, 9233 in all, are:
+= -- 829
+> -- 632
+< -- 2
++ -- 238
+- -- 232
+* -- 927
+:= -- 1666
+add.period$ -- 53
+call.type$ -- 18
+change.case$ -- 199
+chr.to.int$ -- 18
+cite$ -- 18
+duplicate$ -- 248
+empty$ -- 507
+format.name$ -- 250
+if$ -- 1702
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 53
-num.names$ -- 30
-pop$ -- 97
+missing$ -- 18
+newline$ -- 92
+num.names$ -- 54
+pop$ -- 168
 preamble$ -- 1
-purify$ -- 117
+purify$ -- 200
 quote$ -- 0
-skip$ -- 105
+skip$ -- 186
 stack$ -- 0
-substring$ -- 303
-swap$ -- 10
+substring$ -- 558
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 106
 warning$ -- 0
-while$ -- 35
+while$ -- 61
 width$ -- 0
-write$ -- 132
-(There were 2 warnings)
+write$ -- 232
+(There were 3 warnings)

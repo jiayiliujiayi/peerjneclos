@@ -7,11 +7,23 @@ Bell, M.~J., Ternberg, J.~L., Feigin, R.~D., Keating, J.~P., Marshall, R.,
   clinical staging.
 \newblock {\em Annals of surgery}, 187(1):1.
 
+\bibitem[Bolger et~al., 2014]{bolger2014trimmomatic}
+Bolger, A.~M., Lohse, M., and Usadel, B. (2014).
+\newblock Trimmomatic: a flexible trimmer for illumina sequence data.
+\newblock {\em Bioinformatics}, 30(15):2114--2120.
+
 \bibitem[Bouter et~al., 2017]{bouter2017role}
 Bouter, K.~E., van Raalte, D.~H., Groen, A.~K., and Nieuwdorp, M. (2017).
 \newblock Role of the gut microbiome in the pathogenesis of obesity and
   obesity-related metabolic dysfunction.
 \newblock {\em Gastroenterology}, 152(7):1671--1678.
+
+\bibitem[Caporaso et~al., 2010]{caporaso2010qiime}
+Caporaso, J.~G., Kuczynski, J., Stombaugh, J., Bittinger, K., Bushman, F.~D.,
+  Costello, E.~K., Fierer, N., Pena, A.~G., Goodrich, J.~K., Gordon, J.~I.,
+  et~al. (2010).
+\newblock Qiime allows analysis of high-throughput community sequencing data.
+\newblock {\em Nature methods}, 7(5):335.
 
 \bibitem[Giongo et~al., 2011]{giongo2011toward}
 Giongo, A., Gano, K.~A., Crabb, D.~B., Mukherjee, N., Novelo, L.~L., Casella,
@@ -19,11 +31,23 @@ Giongo, A., Gano, K.~A., Crabb, D.~B., Mukherjee, N., Novelo, L.~L., Casella,
 \newblock Toward defining the autoimmune microbiome for type 1 diabetes.
 \newblock {\em The ISME journal}, 5(1):82.
 
+\bibitem[Kassambara, 2017]{kassambara2017ggpubr}
+Kassambara, A. (2017).
+\newblock ggpubr:“ggplot2” based publication ready plots. r package version
+  0.1. 6.
+
 \bibitem[Madan et~al., 2012]{madan2012normal}
 Madan, J.~C., Farzan, S.~F., Hibberd, P.~L., and Karagas, M.~R. (2012).
 \newblock Normal neonatal microbiome variation in relation to environmental
   factors, infection and allergy.
 \newblock {\em Current opinion in pediatrics}, 24(6):753.
+
+\bibitem[Quast et~al., 2012]{quast2012silva}
+Quast, C., Pruesse, E., Yilmaz, P., Gerken, J., Schweer, T., Yarza, P.,
+  Peplies, J., and Gl{\"o}ckner, F.~O. (2012).
+\newblock The silva ribosomal rna gene database project: improved data
+  processing and web-based tools.
+\newblock {\em Nucleic acids research}, 41(D1):D590--D596.
 
 \bibitem[Sarkar et~al., 2016]{sarkar2016psychobiotics}
 Sarkar, A., Lehto, S.~M., Harty, S., Dinan, T.~G., Cryan, J.~F., and Burnet,
@@ -38,6 +62,15 @@ Savage, J.~H., Lee-Sarwar, K.~A., Sordillo, J., Bunyavanich, S., Zhou, Y.,
 \newblock A prospective microbiome-wide association study of food sensitization
   and food allergy in early childhood.
 \newblock {\em Allergy}, 73(1):145--152.
+
+\bibitem[Schloss et~al., 2009]{schloss2009introducing}
+Schloss, P.~D., Westcott, S.~L., Ryabin, T., Hall, J.~R., Hartmann, M.,
+  Hollister, E.~B., Lesniewski, R.~A., Oakley, B.~B., Parks, D.~H., Robinson,
+  C.~J., et~al. (2009).
+\newblock Introducing mothur: open-source, platform-independent,
+  community-supported software for describing and comparing microbial
+  communities.
+\newblock {\em Applied and environmental microbiology}, 75(23):7537--7541.
 
 \bibitem[Stokholm et~al., 2018]{stokholm2018maturation}
 Stokholm, J., Blaser, M.~J., Thorsen, J., Rasmussen, M.~A., Waage, J., Vinding,
@@ -63,5 +96,23 @@ Vatanen, T., Franzosa, E.~A., Schwager, R., Tripathi, S., Arthur, T.~D., Vehik,
 \newblock The human gut microbiome in early-onset type 1 diabetes from the
   teddy study.
 \newblock {\em Nature}, 562(7728):589.
+
+\bibitem[Wang et~al., 2007]{wang2007naive}
+Wang, Q., Garrity, G.~M., Tiedje, J.~M., and Cole, J.~R. (2007).
+\newblock Naive bayesian classifier for rapid assignment of rrna sequences into
+  the new bacterial taxonomy.
+\newblock {\em Applied and environmental microbiology}, 73(16):5261--5267.
+
+\bibitem[Wickham, 2016]{ggplot2}
+Wickham, H. (2016).
+\newblock {\em ggplot2: Elegant Graphics for Data Analysis}.
+\newblock Springer-Verlag New York.
+
+\bibitem[Zhou et~al., 2015]{zhou2015longitudinal}
+Zhou, Y., Shan, G., Sodergren, E., Weinstock, G., Walker, W.~A., and Gregory,
+  K.~E. (2015).
+\newblock Longitudinal analysis of the premature infant intestinal microbiome
+  prior to necrotizing enterocolitis: a case-control study.
+\newblock {\em PloS one}, 10(3):e0118632.
 
 \end{thebibliography}
