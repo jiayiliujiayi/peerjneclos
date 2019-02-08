@@ -5,45 +5,45 @@ The style file: apalike.bst
 Database file #1: thesis.bib
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Figueredo:2009dg"
-You've used 19 entries,
+You've used 21 entries,
             1935 wiz_defined-function locations,
-            607 strings with 8524 characters,
-and the built_in function-call counts, 9655 in all, are:
-= -- 873
-> -- 645
+            620 strings with 9050 characters,
+and the built_in function-call counts, 10557 in all, are:
+= -- 957
+> -- 696
 < -- 3
-+ -- 242
-- -- 236
-* -- 966
-:= -- 1736
-add.period$ -- 56
-call.type$ -- 19
-change.case$ -- 206
-chr.to.int$ -- 19
-cite$ -- 19
-duplicate$ -- 262
-empty$ -- 539
-format.name$ -- 257
-if$ -- 1785
++ -- 260
+- -- 254
+* -- 1055
+:= -- 1897
+add.period$ -- 62
+call.type$ -- 21
+change.case$ -- 225
+chr.to.int$ -- 21
+cite$ -- 21
+duplicate$ -- 290
+empty$ -- 595
+format.name$ -- 277
+if$ -- 1954
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 97
-num.names$ -- 57
-pop$ -- 172
+missing$ -- 21
+newline$ -- 107
+num.names$ -- 63
+pop$ -- 187
 preamble$ -- 1
-purify$ -- 207
+purify$ -- 226
 quote$ -- 0
-skip$ -- 197
+skip$ -- 217
 stack$ -- 0
-substring$ -- 601
-swap$ -- 18
+substring$ -- 659
+swap$ -- 20
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 124
 warning$ -- 0
-while$ -- 65
+while$ -- 72
 width$ -- 0
-write$ -- 245
+write$ -- 271
 (There were 2 warnings)

@@ -7,6 +7,12 @@ Bell, M.~J., Ternberg, J.~L., Feigin, R.~D., Keating, J.~P., Marshall, R.,
   clinical staging.
 \newblock {\em Annals of surgery}, 187(1):1.
 
+\bibitem[Bezirtzoglou et~al., 2011]{bezirtzoglou2011microbiota}
+Bezirtzoglou, E., Tsiotsias, A., and Welling, G.~W. (2011).
+\newblock Microbiota profile in feces of breast-and formula-fed newborns by
+  using fluorescence in situ hybridization (fish).
+\newblock {\em Anaerobe}, 17(6):478--482.
+
 \bibitem[Bolger et~al., 2014]{bolger2014trimmomatic}
 Bolger, A.~M., Lohse, M., and Usadel, B. (2014).
 \newblock Trimmomatic: a flexible trimmer for illumina sequence data.
@@ -77,6 +83,13 @@ Schloss, P.~D., Westcott, S.~L., Ryabin, T., Hall, J.~R., Hartmann, M.,
   community-supported software for describing and comparing microbial
   communities.
 \newblock {\em Applied and environmental microbiology}, 75(23):7537--7541.
+
+\bibitem[Schwiertz et~al., 2003]{schwiertz2003development}
+Schwiertz, A., Gruhl, B., L{\"o}bnitz, M., Michel, P., Radke, M., and Blaut, M.
+  (2003).
+\newblock Development of the intestinal bacterial composition in hospitalized
+  preterm infants in comparison with breast-fed, full-term infants.
+\newblock {\em Pediatric research}, 54(3):393.
 
 \bibitem[Stokholm et~al., 2018]{stokholm2018maturation}
 Stokholm, J., Blaser, M.~J., Thorsen, J., Rasmussen, M.~A., Waage, J., Vinding,
