@@ -31,6 +31,17 @@ Caporaso, J.~G., Kuczynski, J., Stombaugh, J., Bittinger, K., Bushman, F.~D.,
 \newblock Qiime allows analysis of high-throughput community sequencing data.
 \newblock {\em Nature methods}, 7(5):335.
 
+\bibitem[Chen and Li, 2016]{chen2016two}
+Chen, E.~Z. and Li, H. (2016).
+\newblock A two-part mixed-effects model for analyzing longitudinal microbiome
+  compositional data.
+\newblock {\em Bioinformatics}, 32(17):2611--2617.
+
+\bibitem[Edgar, 2013]{edgar2013uparse}
+Edgar, R.~C. (2013).
+\newblock Uparse: highly accurate otu sequences from microbial amplicon reads.
+\newblock {\em Nature methods}, 10(10):996.
+
 \bibitem[Giongo et~al., 2011]{giongo2011toward}
 Giongo, A., Gano, K.~A., Crabb, D.~B., Mukherjee, N., Novelo, L.~L., Casella,
   G., Drew, J.~C., Ilonen, J., Knip, M., Hy{\"o}ty, H., et~al. (2011).

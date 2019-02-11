@@ -2,48 +2,52 @@ This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: apalike.bst
+White space in argument---line 31 of file thesis.aux
+ : \citation{Citrobacter
+ :                       koseri}
+I'm skipping whatever remains of this command
 Database file #1: thesis.bib
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Figueredo:2009dg"
-You've used 21 entries,
+You've used 23 entries,
             1935 wiz_defined-function locations,
-            620 strings with 9050 characters,
-and the built_in function-call counts, 10557 in all, are:
-= -- 957
-> -- 696
-< -- 3
-+ -- 260
-- -- 254
-* -- 1055
-:= -- 1897
-add.period$ -- 62
-call.type$ -- 21
-change.case$ -- 225
-chr.to.int$ -- 21
-cite$ -- 21
-duplicate$ -- 290
-empty$ -- 595
-format.name$ -- 277
-if$ -- 1954
+            630 strings with 9292 characters,
+and the built_in function-call counts, 11297 in all, are:
+= -- 1031
+> -- 716
+< -- 5
++ -- 268
+- -- 260
+* -- 1120
+:= -- 2024
+add.period$ -- 68
+call.type$ -- 23
+change.case$ -- 238
+chr.to.int$ -- 23
+cite$ -- 23
+duplicate$ -- 318
+empty$ -- 653
+format.name$ -- 287
+if$ -- 2098
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 21
-newline$ -- 107
-num.names$ -- 63
-pop$ -- 187
+missing$ -- 23
+newline$ -- 117
+num.names$ -- 69
+pop$ -- 194
 preamble$ -- 1
-purify$ -- 226
+purify$ -- 239
 quote$ -- 0
-skip$ -- 217
+skip$ -- 239
 stack$ -- 0
-substring$ -- 659
-swap$ -- 20
+substring$ -- 725
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 124
+type$ -- 136
 warning$ -- 0
-while$ -- 72
+while$ -- 79
 width$ -- 0
-write$ -- 271
-(There were 2 warnings)
+write$ -- 297
+(There was 1 error message)
