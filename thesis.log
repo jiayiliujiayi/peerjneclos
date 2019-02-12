@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.15)  8 FEB 2019 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.15)  11 FEB 2019 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,54 +898,134 @@ LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
 <figure/design.pdf, id=127, 1022.76427pt x 423.82541pt>
 File: figure/design.pdf Graphic file (type pdf)
 <use figure/design.pdf>
-Package pdftex.def Info: figure/design.pdf  used on input line 139.
+Package pdftex.def Info: figure/design.pdf  used on input line 142.
 (pdftex.def)             Requested size: 415.12572pt x 172.02342pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]\OT1/ptm/b/n/10 Control
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]\OT1/ptm/b/n/10 Statistical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]\OT1/ptm/m/n/10 (+20) Kruskal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]\OT1/ptm/m/n/10 (+20) 1416.3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\OT1/ptm/m/n/10 (+20) (773.4-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]\OT1/ptm/m/n/10 (+20) 1141.7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\OT1/ptm/m/n/10 (+20) (633.4-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]\OT1/ptm/m/n/10 (+20) 1527.4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\OT1/ptm/m/n/10 (+20) (1391.6-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]\OT1/ptm/m/n/10 (+20) Kruskal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]\OT1/ptm/m/n/10 (+20) Wilcoxon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]\OT1/ptm/m/n/10 (+20) 54.3 (13.5-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]\OT1/ptm/m/n/10 (+20) 60.0 (24.8-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]\OT1/ptm/m/n/10 (+20) 32.9 (26.3-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]\OT1/ptm/m/n/10 (+20) Kruskal-
+ []
+
+<figure/shannon-group-time.pdf, id=131, 722.7pt x 722.7pt>
+File: figure/shannon-group-time.pdf Graphic file (type pdf)
+<use figure/shannon-group-time.pdf>
+Package pdftex.def Info: figure/shannon-group-time.pdf  used on input line 171.
+
+(pdftex.def)             Requested size: 415.12572pt x 415.13022pt.
 [5 <./figure/design.pdf>]
-<view.jpg, id=208, 493.3632pt x 274.626pt>
+<view.jpg, id=214, 493.3632pt x 274.626pt>
 File: view.jpg Graphic file (type jpg)
 <use view.jpg>
-Package pdftex.def Info: view.jpg  used on input line 183.
+Package pdftex.def Info: view.jpg  used on input line 222.
 (pdftex.def)             Requested size: 415.12572pt x 231.08235pt.
 
 
 Package natbib Warning: Citation `Figueredo:2009dg' on page 6 undefined on inpu
-t line 200.
+t line 239.
 
 
 Package natbib Warning: Citation `Figueredo:2009dg' on page 6 undefined on inpu
-t line 200.
+t line 239.
 
-[6 <./view.jpg>] [7]
-<results.pdf, id=229, 421.575pt x 316.18124pt>
+[6] [7 <./figure/shannon-group-time.pdf>] [8 <./view.jpg>]
+<results.pdf, id=246, 421.575pt x 316.18124pt>
 File: results.pdf Graphic file (type pdf)
 <use results.pdf>
-Package pdftex.def Info: results.pdf  used on input line 254.
+Package pdftex.def Info: results.pdf  used on input line 293.
 (pdftex.def)             Requested size: 415.12572pt x 311.3511pt.
- [8 <./results.pdf>] [9] (./thesis.bbl [10])
+ [9] [10 <./results.pdf>] (./thesis.bbl [11])
 
 Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-[11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 287.
+[12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 287.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 287.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 326.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2FBF3D10694682323E0A0CFDB4AA39AE;52.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 287.
+(rerunfilecheck)             Checksum: 2F6E74C67E6E8072F3CB9163226FDCFC;52.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
  ) 
 Here is how much of TeX's memory you used:
- 12876 strings out of 492649
- 191834 string characters out of 6129621
- 438855 words of memory out of 5000000
- 16259 multiletter control sequences out of 15000+600000
- 59796 words of font info for 242 fonts, out of 8000000 for 9000
+ 12883 strings out of 492649
+ 192067 string characters out of 6129621
+ 440039 words of memory out of 5000000
+ 16265 multiletter control sequences out of 15000+600000
+ 59683 words of font info for 240 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,49p,1295b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,49p,1295b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -958,10 +1038,10 @@ e1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symb
 ol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (11 pages, 994092 bytes).
+Output written on thesis.pdf (12 pages, 1021426 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 42520 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 42525 words of extra memory for PDF output out of 42996 (max. 10000000)
 
