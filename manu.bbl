@@ -53,6 +53,13 @@ Kassambara, A. (2017).
 \newblock ggpubr:“ggplot2” based publication ready plots. r package version
   0.1. 6.
 
+\bibitem[Liu et~al., 2018]{liu2018splenectomy}
+Liu, Y., Li, J., Jin, Y., Zhao, L., Zhao, F., Feng, J., Li, A., and Wei, Y.
+  (2018).
+\newblock Splenectomy leads to amelioration of altered gut microbiota and
+  metabolome in liver cirrhosis patients.
+\newblock {\em Frontiers in Microbiology}, 9.
+
 \bibitem[Madan et~al., 2012]{madan2012normal}
 Madan, J.~C., Farzan, S.~F., Hibberd, P.~L., and Karagas, M.~R. (2012).
 \newblock Normal neonatal microbiome variation in relation to environmental
@@ -132,6 +139,13 @@ Wang, Q., Garrity, G.~M., Tiedje, J.~M., and Cole, J.~R. (2007).
 \newblock Naive bayesian classifier for rapid assignment of rrna sequences into
   the new bacterial taxonomy.
 \newblock {\em Applied and environmental microbiology}, 73(16):5261--5267.
+
+\bibitem[Wang et~al., 2018]{wang2018bacterial}
+Wang, R., Xiao, Y., Lv, F., Hu, L., Wei, L., Yuan, Z., and Lin, H. (2018).
+\newblock Bacterial community structure and functional potential of rhizosphere
+  soils as influenced by nitrogen addition and bacterial wilt disease under
+  continuous sesame cropping.
+\newblock {\em Applied Soil Ecology}, 125:117--127.
 
 \bibitem[Wickham, 2016]{ggplot2}
 Wickham, H. (2016).
