@@ -60,10 +60,11 @@
 %intro gutmicrobiota, its role in health, early pattern a/w disease
 Gut microbiota is a key contributor to human health and the dysbiosis of which are proven to be associated with various diseases, such as atherosclerosis\citep{tang2017gut}, obesity\citep{bouter2017role}, neuropathy\citep{sarkar2016psychobiotics}, liver diseases\citep{tilg2016gut}, etc. Temporal colonization pattern of the intestinal microbiota during early stages of life\cite{} also provided evidence of its association with early life events, including Type 1 diabetes\citep{giongo2011toward, vatanen2018human}, asthma\citep{stokholm2018maturation} and allergy\citep{madan2012normal,savage2018prospective}. In light of less gut maturity, innate immunity and more C-setions birth modes, microbiome assembly in pretem infants often differs from that of term infants,  especially presenting with lower \textit{Bifidobacterium} spp. abundance and higher \textit{Escherichia coli}, \textit{Enterococcus} sp., and \textit{Klebsiella pneumoniae}\citep{schwiertz2003development, bezirtzoglou2011microbiota}. As as result, perturbation of post-partum microbiota haboring contributes to the vulnerablilty in preterm-associated health consequencese, such as necrotizing enterocolitis and late-onset sepsis.
 
+
 %intro gutmicrobiota, its role in health, early pattern a/w Necrotizing
 
 \noindent
-Necrotizing enterocolitis, characterized by rapid progression, high morbidity and mortality, is one of the most devastating gestrointestinal neonatal emergencies, especially in preterm newborns; the etiologies of which remains elusive. Previous studies have suggested how intestinal microbiota pattern is implicated in the condition. Mai et al. reported an increase in the Proteobacteria and a decrease in the Firmicutes phyla during three to seven days prior to NEC onset (Mai et al., 2011). Zhou et al. reported a relatively higher abundance of Clostridium and Gamma-Proteobacteria in the proximity of NEC during early and late onset, respectively\citep{zhou2015longitudinal}. Dominance of \citep{Citrobacter koseri} and/or Klebsiella pneumoniae was found to correlate with NEC risk in preterm infants
+Necrotizing enterocolitis, characterized by rapid progression, high morbidity and mortality, is one of the most devastating gestrointestinal neonatal emergencies, especially in preterm newborns; the etiologies of which remains elusive. Previous studies have suggested how intestinal microbiota pattern is implicated in the condition. Mai et al. reported an increase in the Proteobacteria and a decrease in the Firmicutes phyla during three to seven days prior to NEC onset (Mai et al., 2011). Zhou et al. reported a relatively higher abundance of Clostridium and Gamma-Proteobacteria in the proximity of NEC during early and late onset, respectively\citep{zhou2015longitudinal}. Dominance of \textit{Citrobacter koseri} and/or Klebsiella pneumoniae was found to correlate with NEC risk in preterm infants
 
 \
 
@@ -120,7 +121,7 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
       The average of $\alpha$ diversity, if more than two were available within one analysis interval, of each patient was calculated. Repeated measures two-way ANOVA, with time intervals(EPP, EPO, LPO, ED, MD, LD, PD) as a within-subject factor and groups (NEC, LOS, control) as a between-subject factor), and Kruskal Wallis tests were used to test shannon diversity differences either among groups within a time interval or among time intervals within a certain group.
       \paragraph*{Modeling Strategies for Taxomony Comparisons}
       To compare the dynamics of microbiota diversity and relative taxonomic abundance preciding the disease, we took into account the EPP, EPO, LPO and ED interval among all patients and fit(Supplemantary matrix1).
-      To compare the microbiome profile right after birth until disease alleviation, we selected EPP, EPO, LPO, ED, MD and LD interval of NEC and LOS patients(Supplementary matrix2).
+      To compare the microbiome profile right after birth until disease alleviation, we selected EPP, EPO, LPO, ED, MD and LD interval of NEC and LOS patients(Supplementary matrix2 dataset).
       The average taxonomy relative abundances, if more than two were available within one analysis interval, of each patient was calculated.
       Zero-Inflated Beta Regression Model with Random Effects (ZIBR) and Linear Mixed-effects Model(LME) were used to test the association between OTU relative abundance and clinical covariates (diseases-related time intervals) for longitudinal microbiome data \citep{chen2016two}. \textit{ZIBR} R package were utilized for both models.
 
@@ -168,14 +169,27 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
     \subsubsection*{Mircobiome Richness Plays Minor Roles}
     Overally, all three groups shared similar microbiota richness trend after birth, that the observed richness (Sobs) decreased significantly from post-partum period until the late disease stage (Fig\ref{fig:sobs-group-time}a. NEC group, p = 0.044; b. LOS group, p = 0.013; c. control group, p \textless 0.01). Nevertheless, both the inter-group test between adjacent time-intervals (Fig\ref{fig:sobs-group-time} and the inter-time-interval comparison among groups (supplementary sobs-time-group!!!!!) didn't show any significant alterations and differences in sobs, indicating the minor effect of microbiota richness on the diseases acquisition.
       \begin{figure}[ht]\centering
-        \includegraphics[width=\linewidth]{figure/shannon-group-time.pdf}
-        \caption{Post-partum microbiome richness trend (Sobs)}
+        \includegraphics[width=\linewidth]{figure/sobs-group-time.pdf}
+        \caption{Post-partum microbiome richness (Sobs) trend in each group}
         \label{fig:sobs-group-time}
       \end{figure}
-    \subsubsection*{Mircobiome Eveness}
-    \noindent
+
+    \subsubsection*{Preceding Mircobiome Evenness Decline before NEC and LOS}
+    In all patients, microbiota communities evenness, reflected by shannon diversity indices, decreased starting from post-partum stage(Fig\ref{fig:shannon-group-time}). However, after the early pre-onset interval, the shannon index of the NEC and LOS groups decreased significantly as the patients stepped into the early disease status (Fig\ref{fig:shannon-group-time}a.NEC group, early pre-onset = 1.92, early disease = 0.58, p = 0.04, b.LOS group, early pre-onset = 2.47, early disease = 0.47, p = 0.01), while the control group did not show the similar trend (Fig\ref{fig:shannon-group-time}c.control group, early pre-onset = 1.81, early disease =1.00, p = 0.05). the shannon index of control group decreased nonsignificantly to the extent as the disease groups did.
+    \begin{figure}[ht]\centering
+      \includegraphics[width=\linewidth]{figure/shannon-group-time.pdf}
+      \caption{Post-partum microbiome evenness(shannon diversity index) trend in each group}
+      \label{fig:shannon-group-time}
+    \end{figure}
 
     \noindent
+    The inter-time-interval comparison among three groups showed signifant shannon index divergent during the early disease stage. During the middle disease period, the two diseases groups showed a non-significant difference(), indicating a similar dysbiosis pattern in both NEC and LOS development.
+    \begin{figure}[ht]\centering
+      \includegraphics[width=\linewidth]{figure/shannon-time-groups.pdf}
+      \caption{Post-partum microbiome evenness(shannon diversity index) trend in each time interval}
+      \label{fig:shannon-time-groups}
+    \end{figure}
+
 
 
 
@@ -183,9 +197,10 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
     \subsubsection*{Microbiome Composition}
 
     \subsubsection*{Taxonomic Determinants}
-
+    To investigate specific genus that play part in the longitudinal diversity patterns of the intestine microbiome, we selected the OTU correspondent genus and performed tests on a time-interval scale.
 
 \section*{Discussion}
+During the first months of life, the microbiota undergoes
 are consistent with the hypothesis that dysbiosis precedes this severe event. The
 
 \noindent
@@ -267,59 +282,7 @@ You can make lists with automatic numbering \dots
 
 We hope you find write\LaTeX\ useful for your PeerJ submission, and please let us know if you have any feedback. Further examples with dummy text are included in the following pages.
 
-\section*{Methods}
 
-\lipsum[4] % Dummy text
-
-\begin{equation}
-\cos^3 \theta =\frac{1}{4}\cos\theta+\frac{3}{4}\cos 3\theta
-\label{eq:refname2}
-\end{equation}
-
-\lipsum[5] % Dummy text
-
-\subsection*{Subsection}
-
-\lipsum[6] % Dummy text
-
-\paragraph{Paragraph} \lipsum[7] % Dummy text
-\paragraph{Paragraph} \lipsum[8] % Dummy text
-
-\subsection*{Subsection}
-
-\lipsum[9] % Dummy text
-
-\begin{figure}[ht]\centering
-\includegraphics[width=\linewidth]{results}
-\caption{In-text Picture}
-\label{fig:results}
-\end{figure}
-
-Reference to Figure \ref{fig:results}.
-
-\section*{Results and Discussion}
-
-\lipsum[10] % Dummy text
-
-\subsection*{Subsection}
-
-\lipsum[11] % Dummy text
-
-\subsubsection*{Subsubsection}
-
-\lipsum[12] % Dummy text
-
-\subsubsection*{Subsubsection}
-
-\lipsum[14] % Dummy text
-
-\subsection*{Subsection}
-
-\lipsum[15-20] % Dummy text
-
-\section*{Acknowledgments}
-
-So long and thanks for all the fish.
 
 \bibliography{thesis}
 

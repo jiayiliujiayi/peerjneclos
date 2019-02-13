@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.15)  12 FEB 2019 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.15)  12 FEB 2019 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**thesi
+**thesis
 (./thesis.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
@@ -873,159 +873,166 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 79.
 
-Package natbib Warning: Citation `Citrobacter koseri' on page 2 undefined on in
-put line 66.
-
-[2]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 78.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlptm.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 78.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 84.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 79.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 85.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [3]
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 105.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 106.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 105.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 106.
  [4]
-<figure/design.pdf, id=127, 1022.76427pt x 423.82541pt>
+<figure/design.pdf, id=126, 1022.76427pt x 423.82541pt>
 File: figure/design.pdf Graphic file (type pdf)
 <use figure/design.pdf>
-Package pdftex.def Info: figure/design.pdf  used on input line 142.
+Package pdftex.def Info: figure/design.pdf  used on input line 143.
 (pdftex.def)             Requested size: 415.12572pt x 172.02342pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\OT1/ptm/b/n/10 Control
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\OT1/ptm/b/n/10 Statistical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []\OT1/ptm/m/n/10 (+20) Kruskal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/ptm/m/n/10 (+20) 1416.3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \OT1/ptm/m/n/10 (+20) (773.4-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/ptm/m/n/10 (+20) 1141.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \OT1/ptm/m/n/10 (+20) (633.4-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/ptm/m/n/10 (+20) 1527.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \OT1/ptm/m/n/10 (+20) (1391.6-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/ptm/m/n/10 (+20) Kruskal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\OT1/ptm/m/n/10 (+20) Wilcoxon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []\OT1/ptm/m/n/10 (+20) 54.3 (13.5-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []\OT1/ptm/m/n/10 (+20) 60.0 (24.8-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []\OT1/ptm/m/n/10 (+20) 32.9 (26.3-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []\OT1/ptm/m/n/10 (+20) Kruskal-
  []
 
-<figure/shannon-group-time.pdf, id=131, 722.7pt x 722.7pt>
-File: figure/shannon-group-time.pdf Graphic file (type pdf)
-<use figure/shannon-group-time.pdf>
-Package pdftex.def Info: figure/shannon-group-time.pdf  used on input line 171.
-
+<figure/sobs-group-time.pdf, id=130, 722.7pt x 722.7pt>
+File: figure/sobs-group-time.pdf Graphic file (type pdf)
+<use figure/sobs-group-time.pdf>
+Package pdftex.def Info: figure/sobs-group-time.pdf  used on input line 172.
 (pdftex.def)             Requested size: 415.12572pt x 415.13022pt.
 [5 <./figure/design.pdf>]
-<view.jpg, id=214, 493.3632pt x 274.626pt>
+<figure/shannon-group-time.pdf, id=214, 722.7pt x 722.7pt>
+File: figure/shannon-group-time.pdf Graphic file (type pdf)
+<use figure/shannon-group-time.pdf>
+Package pdftex.def Info: figure/shannon-group-time.pdf  used on input line 180.
+
+(pdftex.def)             Requested size: 415.12572pt x 415.13022pt.
+<figure/shannon-time-groups.pdf, id=215, 578.16pt x 722.7pt>
+File: figure/shannon-time-groups.pdf Graphic file (type pdf)
+<use figure/shannon-time-groups.pdf>
+Package pdftex.def Info: figure/shannon-time-groups.pdf  used on input line 188
+.
+(pdftex.def)             Requested size: 415.12572pt x 518.899pt.
+ [6]
+<view.jpg, id=225, 493.3632pt x 274.626pt>
 File: view.jpg Graphic file (type jpg)
 <use view.jpg>
-Package pdftex.def Info: view.jpg  used on input line 222.
+Package pdftex.def Info: view.jpg  used on input line 237.
 (pdftex.def)             Requested size: 415.12572pt x 231.08235pt.
 
 
-Package natbib Warning: Citation `Figueredo:2009dg' on page 6 undefined on inpu
-t line 239.
+Package natbib Warning: Citation `Figueredo:2009dg' on page 7 undefined on inpu
+t line 254.
 
 
-Package natbib Warning: Citation `Figueredo:2009dg' on page 6 undefined on inpu
-t line 239.
+Package natbib Warning: Citation `Figueredo:2009dg' on page 7 undefined on inpu
+t line 254.
 
-[6] [7 <./figure/shannon-group-time.pdf>] [8 <./view.jpg>]
-<results.pdf, id=246, 421.575pt x 316.18124pt>
-File: results.pdf Graphic file (type pdf)
-<use results.pdf>
-Package pdftex.def Info: results.pdf  used on input line 293.
-(pdftex.def)             Requested size: 415.12572pt x 311.3511pt.
- [9] [10 <./results.pdf>] (./thesis.bbl [11])
+[7 <./figure/sobs-group-time.pdf>] [8 <./figure/shannon-group-time.pdf>]
+(./thesis.bbl [9])
 
 Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-[12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+[10] [11 <./figure/shannon-time-groups.pdf>] [12 <./view.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 326.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2F6E74C67E6E8072F3CB9163226FDCFC;52.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
+(rerunfilecheck)             Checksum: C480A1023B976B0C07D959C35225A1D6;42.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 289.
  ) 
 Here is how much of TeX's memory you used:
- 12884 strings out of 492649
- 192072 string characters out of 6129621
- 440039 words of memory out of 5000000
- 16265 multiletter control sequences out of 15000+600000
- 59683 words of font info for 240 fonts, out of 8000000 for 9000
+ 12880 strings out of 492649
+ 192266 string characters out of 6129621
+ 440204 words of memory out of 5000000
+ 16269 multiletter control sequences out of 15000+600000
+ 59527 words of font info for 236 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,49p,1294b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,49p,1295b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -1038,10 +1045,10 @@ e1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symb
 ol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (12 pages, 1021321 bytes).
+Output written on thesis.pdf (12 pages, 1045030 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 268 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
- 42525 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 42530 words of extra memory for PDF output out of 42996 (max. 10000000)
 
