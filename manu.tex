@@ -14,7 +14,7 @@
 \usepackage{wasysym} %for \times
 \usepackage{hyperref}
 
-\title{Patterned progression of gut microbiota in assiociation with preterm infants to necrotizing enterocolitis and late onset sepsis: prospective pilot data from a non-Western population}
+\title{Patterned progression of gut microbiota in association with preterm infants to necrotizing enterocolitis and late onset sepsis: prospective pilot data from a non-Western population}
 
 \author[1]{Jiayi Liu}
 \author[2]{Jianhua Sun}
@@ -41,7 +41,7 @@
 %\keywords{Gut Microbiota, Preterm Infant, Necrotizing Enterocolitis, Neonatal Late Onset Sepsis, High Throughput DNA Sequencing, DADA2}
 
 \begin{abstract}
-\textbf{Background and Objectives} \\Intestinal microbiota dysbiosis might predispose preterm infants to necrotizing enterocolitis(NEC) and late onset sepsis(LOS). In this observational prospective study, we aimed to profile and compare post-partum microbiota progression patterns in non-Western preterm patients with either condition. \\
+\textbf{Background and Objectives} \\Recent studies associate intestinal microbiota dysbiosis with necrotizing enterocolitis(NEC) and late onset sepsis(LOS) preterm infants in western countries.  To date, there is no report of similar studies performed among non-Western population.  In this pilot study, we profiled gut microbiota of NEC and LOS patients from birth to deceased or discharged.  \\
 \textbf{Methods} \\We enrolled preterm infants with gestational age less than 33 weeks and birth weight more than 950g, from July 2013 to December 2014. We began fecal sample collection from the the first stool after birth and prospectively collected until discharge. Bacterial V3~V4 region of 16s rRNA genes from each stool sample were amplified and sequenced. With the use of RM two-way ANOVA and Zero-Inflated Beta Random Effect models to account for repeated measures, we found out the development of NEC or LOS associated with gut bacterial communities. \\
 \textbf{Results}\\A total of 192 fecal samples from 24 patiens were studied, of whom four developed NEC, three LOS; the remaining 17 were used as controls. [The post-partum gut microbiota colonization started to diverge among NEC, LOS and their matched control groups, from the second week after birth.  Microbiota of the LOS infants was the least diversified (Shannon index=1.66), while that of the control group was the most diversified(Shannon index=0.88, p=0.01). Potentially pathogenic genus Enterococcus (20.86\%) and Staphylococcus (8.67\%) were prominent in NEC patients and Klebsiella (42.15\%) in LOS group. Both two groups addressed lower proportion of Lactococcus (7.98\% and 13.76\% in NEC and LOS group, respectively) than the control group (3.66\%)].\\
 
@@ -70,7 +70,7 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
 
 
 \noindent
- Among non-Western population, however, microbiota chronological dysbiosis preceding necrotizing enterocolitis or late onset sepsis remain scant so far. Hence, we conducted this prospective study with the aims to profile and compare postpost-partum pattern of intestinal microbiota in Chinese preterm infants who subsequently developed necrotizing enterocolitis and late onset sepsis, which may be critical in the etiopathogenesis of both conditions. 
+ Among non-Western population, however, microbiota chronological dysbiosis preceding necrotizing enterocolitis or late onset sepsis remain scant so far. Hence, we conducted this prospective study with the aims to profile and compare postpost-partum pattern of intestinal microbiota in Chinese preterm infants who subsequently developed necrotizing enterocolitis and late onset sepsis, which may be critical in the etiopathogenesis of both conditions.
 
 \section*{Methods}
   \subsection*{Ethics}
@@ -125,7 +125,7 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
       To compare the dynamics of microbiota diversity and relative taxonomic abundance preciding the disease, we took into account the EPP, EPO, LPO and ED interval among all patients and fit(Supplemantary matrix1).
       To compare the microbiome profile right after birth until disease alleviation, we selected EPP, EPO, LPO, ED, MD and LD interval of NEC and LOS patients(Supplementary matrix2 dataset).
       The average taxonomy relative abundances, if more than two were available within one analysis interval, of each patient was calculated.
-      Zero-Inflated Beta Regression Model with Random Effects (ZIBR) and Linear Mixed-effects Model(LME) were used to test the association between OTU relative abundance and clinical covariates (diseases-related time intervals) for longitudinal microbiome data \citep{chen2016two}. \textit{ZIBR} R package were utilized for both models.
+      Zero-Inflated Beta Regression Model with Random Effects (ZIBR) and Linear Mixed-effects Model(LME) were used to test the association between OTU relative abundance and clinical covariates (diseases-related time intervals) for longitudinal microbiome data \citep{chen2016two}. \textit{ZIBR} and \textit{nlme} R packages were utilized for each model.
 
       \noindent
       Figures were generated with the \textit{"ggpubr"}\citep{kassambara2017ggpubr} and \textit{"ggplot2"}\citep{ggplot2} packages using R(v.3.5.1).
@@ -177,7 +177,7 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
       \end{figure}
 
     \subsubsection*{Preceding Decline of Mircobiome Evenness prior to NEC and LOS}
-    In all patients, microbiota communities evenness, reflected by shannon diversity indices, decreased starting from post-partum stage(Fig\ref{fig:shannon-group-time}, supplemantary!!!! rm\_matrix1\_shannon, p \textless <0.0001). However, after the early pre-onset interval, the shannon index of the NEC and LOS groups decreased significantly as the patients stepped into the early disease status (Fig\ref{fig:shannon-group-time}a.NEC group, early pre-onset = 1.92, early disease = 0.58, p = 0.04, b.LOS group, early pre-onset = 2.47, early disease = 0.47, p = 0.01), while the control group did not show the similar trend (Fig\ref{fig:shannon-group-time}c.control group, early pre-onset = 1.81, early disease =1.00, p = 0.05).
+    In all patients, microbiota communities evenness, reflected by shannon diversity indices, tended to decrease after birth(Fig\ref{fig:shannon-group-time}, supplemantary!!!! rm\_matrix1\_shannon, p \textless <0.0001). However, from the early pre-onset interval to early disease, the shannon index of the NEC and LOS groups decreased significantly (Fig\ref{fig:shannon-group-time}a.NEC group, early pre-onset = 1.92, early disease = 0.58, p = 0.04, b.LOS group, early pre-onset = 2.47, early disease = 0.47, p = 0.01), while the control group did not show the similar trend (Fig\ref{fig:shannon-group-time}c.control group, early pre-onset = 1.81, early disease =1.00, p = 0.05).
     \begin{figure}[ht]\centering
       \includegraphics[width=\linewidth]{figure/shannon-group-time.pdf}
       \caption{Post-partum microbiome evenness(shannon diversity index) trend in each group}
@@ -185,19 +185,27 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
     \end{figure}
 
     \noindent
-    The inter-time-interval comparison among three groups showed signifant shannon index divergent during during early pre-onset interval (two way RM ANOVA, p = 0.0017 supplementary!!!) and the early disease stage(Fig\ref{fig:shannon-time-groups}, p = 0.0037), implying the role of microbiota distortion in triggering NEC and LOS. In middle disease period, two disease groups showed a non-significant difference in community evenness(Fig\ref{fig:shannon-time-groups} facte "middle disease", p = 0.034), indicating a similar dysbiosis pattern in both NEC and LOS development. The alleviation of both diseases restored the microbiota evenness back to the level during early pre-onset interval (Fig\ref{fig:shannon-group-time} a. NEC, early pre-onset vs. post disease, p = 0.79; b. LOS, early pre-onset vs. post disease, p = 0.16).
+    The inter-time-interval comparison among three groups showed signifant shannon index divergent during during early pre-onset interval (two way RM ANOVA, p = 0.0017 supplementary!!!) and the early disease stage(Fig\ref{fig:shannon-time-groups}, p = 0.0037), implying the role of microbiota distortion in triggering NEC and LOS. In middle disease period, two disease groups showed a non-significant difference in community evenness(Fig\ref{fig:shannon-time-groups} facte "middle disease", p = 0.034), indicating a similar community distribution pattern in both NEC and LOS development. The alleviation of both diseases restored the microbiota evenness back to the level during early pre-onset interval (Fig\ref{fig:shannon-group-time} a. NEC, early pre-onset vs. post disease, p = 0.79; b. LOS, early pre-onset vs. post disease, p = 0.16).
     \begin{figure}[ht]\centering
       \includegraphics[width=\linewidth]{figure/shannon-time-groups.pdf}
       \caption{Post-partum microbiome evenness(shannon diversity index) trend in each time interval}
       \label{fig:shannon-time-groups}
     \end{figure}
 
-    \subsubsection*{Microbiome Composition}
-    PCoA
+    \subsubsection*{Microbiome Composition Kinetics}
+    To evaluate time-wise differences in beta-diversity between the microbiomes, we applied Principal Component Analysis (PCoA) to weighted UniFrac distance metric matrices generated for the time interval set.
 
-    \subsubsection*{Taxonomic Determinants}
-    In a Zero-Inflated Beta Random Effect model, we detected OTUs whose relative abundance changed significantly differently during the the entire hospitalization period.
-    To investigate specific genus that play part in the longitudinal diversity patterns of the intestine microbiome, we selected the OTU correspondent genus and performed tests on a time-interval scale.
+  \subsection*{Potentially Pathogenic Genus Represented Case Groups}
+  To investigate specific genus that play part in the longitudinal diversity patterns of the intestine microbiome, we filtered the genus and performed tests on a time-interval scale.
+  % taxa analysis
+  \begin{figure}[ht]\centering
+    \includegraphics[width=\linewidth]{figure/taxa-time.pdf}
+    \caption{Kinetics of Genera Relative Abundance}
+    \label{fig:taxa-time}
+  \end{figure}
+
+
+  In a Zero-Inflated Beta Random Effect model, we detected xxxOTUs whose relative abundance changed significantly differently during the the entire hospitalization period, which is consistent with our longitudinal observations.
 
 \section*{Discussion}
 \# During the first months of life, the microbiota undergoes hypervariable changes
@@ -219,71 +227,13 @@ We appreciate the support from enrolled patients, their families, and all staffs
 
 %microbiota development in infancy, sequence effect, Conversely, adequate maturation of the gut microbiome in this period may protect these pre-disposed children.
 %increase vulnerability
+%kinetics
 % supplementary: otu
 
 %"#00468BB2" "#ED0000B2" "#42B540B2"
 
 
 
--------------omit part----------------
-\section*{Some \LaTeX{} Examples}
-\label{sec:examples}
-
-Use section and subsection commands to organize your document. \LaTeX{} handles all the formatting and numbering automatically. Use ref and label commands for cross-references.
-
-\subsection*{Figures and Tables}
-
-Use the table and tabular commands for basic tables --- see Table~\ref{tab:widgets}, for example. You can upload a figure (JPEG, PNG or PDF) using the project menu. To include it in your document, use the includegraphics command as in the code for Figure~\ref{fig:view} below.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\linewidth]{view.jpg}
-\caption{An example image.}
-\label{fig:view}
-\end{figure}
-
-\begin{table}[ht]
-\centering
-\begin{tabular}{l|r}
-Item & Quantity \\\hline
-Widgets & 42 \\
-Gadgets & 13
-\end{tabular}
-\caption{\label{tab:widgets}An example table.}
-\end{table}
-
-\subsection*{Citations}
-
-LaTeX formats citations and references automatically using the bibliography records in your .bib file, which you can edit via the project menu. Use the cite command for an inline citation, like \cite{Figueredo:2009dg}, and the citep command for a citation in parentheses \citep{Figueredo:2009dg}.
-
-\subsection*{Mathematics}
-
-\LaTeX{} is great at typesetting mathematics. Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with $\text{E}[X_i] = \mu$ and $\text{Var}[X_i] = \sigma^2 < \infty$, and let
-$$S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
-      = \frac{1}{n}\sum_{i}^{n} X_i$$
-denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
-
-\subsection*{Lists}
-
-You can make lists with automatic numbering \dots
-
-\begin{enumerate}[noitemsep]
-\item Like this,
-\item and like this.
-\end{enumerate}
-\dots or bullet points \dots
-\begin{itemize}[noitemsep]
-\item Like this,
-\item and like this.
-\end{itemize}
-\dots or with words and descriptions \dots
-\begin{description}
-\item[Word] Definition
-\item[Concept] Explanation
-\item[Idea] Text
-\end{description}
-
-We hope you find write\LaTeX\ useful for your PeerJ submission, and please let us know if you have any feedback. Further examples with dummy text are included in the following pages.
 
 
 
