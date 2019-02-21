@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.15)  20 FEB 2019 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.15)  21 FEB 2019 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1000,32 +1000,28 @@ File: figure/taxa-time.pdf Graphic file (type pdf)
 <use figure/taxa-time.pdf>
 Package pdftex.def Info: figure/taxa-time.pdf  used on input line 211.
 (pdftex.def)             Requested size: 415.12572pt x 233.49959pt.
- [7 <./figure/sobs-group-time.pdf>] (./manu.bbl
-[8 <./figure/shannon-group-time.pdf>]
-Underfull \vbox (badness 6063) has occurred while \output is active []
-
- [9])
-
+ [7 <./figure/sobs-group-time.pdf>] [8 <./figure/shannon-group-time.pdf>] (./ma
+nu.bbl [9]) 
 AED: lastpage setting LastPage
 [10] [11 <./figure/shannon-time-groups.pdf>] [12 <./figure/pcoa_time_group.pdf>
 ] [13 <./figure/taxa-time.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
  (./manu.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
 Package rerunfilecheck Info: File `manu.out' has not changed.
 (rerunfilecheck)             Checksum: 94F65FD6E3A2D15D7B546070322E60DA;52.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
  ) 
 Here is how much of TeX's memory you used:
  12897 strings out of 492649
  192737 string characters out of 6129621
- 442376 words of memory out of 5000000
+ 441376 words of memory out of 5000000
  16278 multiletter control sequences out of 15000+600000
  56665 words of font info for 236 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,51p,1293b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,49p,1293b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
@@ -1035,10 +1031,10 @@ t/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
 e1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on manu.pdf (13 pages, 1185691 bytes).
+Output written on manu.pdf (13 pages, 1187046 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
+ 398 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
  56 named destinations out of 1000 (max. 500000)
  42023 words of extra memory for PDF output out of 42996 (max. 10000000)
 
