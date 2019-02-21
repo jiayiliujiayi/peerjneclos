@@ -72,6 +72,11 @@ Mago{\v{c}}, T. and Salzberg, S.~L. (2011).
   assemblies.
 \newblock {\em Bioinformatics}, 27(21):2957--2963.
 
+\bibitem[Pinheiro et~al., 2018]{nlme}
+Pinheiro, J., Bates, D., DebRoy, S., Sarkar, D., and {R Core Team} (2018).
+\newblock {\em {nlme}: Linear and Nonlinear Mixed Effects Models}.
+\newblock R package version 3.1-137.
+
 \bibitem[Quast et~al., 2012]{quast2012silva}
 Quast, C., Pruesse, E., Yilmaz, P., Gerken, J., Schweer, T., Yarza, P.,
   Peplies, J., and Gl{\"o}ckner, F.~O. (2012).
@@ -146,6 +151,16 @@ Wang, R., Xiao, Y., Lv, F., Hu, L., Wei, L., Yuan, Z., and Lin, H. (2018).
   soils as influenced by nitrogen addition and bacterial wilt disease under
   continuous sesame cropping.
 \newblock {\em Applied Soil Ecology}, 125:117--127.
+
+\bibitem[Warner et~al., 2016]{Warner2016a}
+Warner, B.~B., Deych, E., Zhou, Y., Hall-Moore, C., Weinstock, G.~M.,
+  Sodergren, E., Shaikh, N., Hoffmann, J.~A., Linneman, L.~A., Hamvas, A.,
+  Khanna, G., Rouggly-Nickless, L.~C., Ndao, I.~M., Shands, B.~A., Escobedo,
+  M., Sullivan, J.~E., Radmacher, P.~G., Shannon, W.~D., and Tarr, P.~I.
+  (2016).
+\newblock {Gut bacteria dysbiosis and necrotising enterocolitis in very low
+  birthweight infants: A prospective case-control study}.
+\newblock {\em The Lancet}, 387(10031):1928--1936.
 
 \bibitem[Wickham, 2016]{ggplot2}
 Wickham, H. (2016).

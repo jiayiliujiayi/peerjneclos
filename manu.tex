@@ -125,7 +125,7 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
       To compare the dynamics of microbiota diversity and relative taxonomic abundance preciding the disease, we took into account the EPP, EPO, LPO and ED interval among all patients and fit(Supplemantary matrix1).
       To compare the microbiome profile right after birth until disease alleviation, we selected EPP, EPO, LPO, ED, MD and LD interval of NEC and LOS patients(Supplementary matrix2 dataset).
       The average taxonomy relative abundances, if more than two were available within one analysis interval, of each patient was calculated.
-      Zero-Inflated Beta Regression Model with Random Effects (ZIBR) and Linear Mixed-effects Model(LME) were used to test the association between OTU relative abundance and clinical covariates (diseases-related time intervals) for longitudinal microbiome data \citep{chen2016two}. \textit{ZIBR} and \textit{nlme} R packages were utilized for each model.
+      Zero-Inflated Beta Regression Model with Random Effects (ZIBR) and Linear Mixed-effects Model(LME) were used to test the association between OTU relative abundance and clinical covariates (diseases-related time intervals) for longitudinal microbiome data \citep{chen2016two}. \textit{ZIBR} and \textit{nlme}\citep{nlme} R packages were utilized for each model.
 
       \noindent
       Figures were generated with the \textit{"ggpubr"}\citep{kassambara2017ggpubr} and \textit{"ggplot2"}\citep{ggplot2} packages using R(v.3.5.1).
@@ -169,15 +169,15 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
 
    \subsection*{Dynimics of Microbiome Diversity in diseases onset and progression}
     \subsubsection*{Mircobiome Richness Plays Minor Roles}
-    Overally, all three groups shared similar microbiota richness trend after birth, that the observed richness (Sobs) decreased significantly from post-partum period until the late disease stage (Fig\ref{fig:sobs-group-time}a. NEC group, p = 0.044; b. LOS group, p = 0.013; c. control group, p \textless 0.01; supplemantary!!! rm-matrix1-sobs, two way RM ANOVA, p \textless 0.0001). Nevertheless, both the inter-group test between adjacent time-intervals (Fig\ref{fig:sobs-group-time}) and the inter-time-interval comparison among groups (supplementary sobs-time-group!!!!!) didn't show any significant alterations and differences in sobs, indicating the minor effect of microbiota richness on the diseases acquisition.
+    Overally, all three groups shared similar microbiota richness trend after birth, that the observed richness (Sobs) decreased significantly from post-partum period until the late disease stage (Fig\ref{fig:sobs-group-time}a. NEC group, p = 0.044; b. LOS group, p = 0.013; c. control group, p \textless 0.01; supplemantary!!! rm-matrix1-sobs, two way RM ANOVA, p \textless 0.0001). Nevertheless, the inter-time-interval comparison among groups (supplementary sobs-time-group!!!!!) didn't show any significant alterations and differences in sobs, indicating the minor effect of microbiota richness on the diseases acquisition.
       \begin{figure}[ht]\centering
         \includegraphics[width=\linewidth]{figure/sobs-group-time.pdf}
         \caption{Post-partum microbiome richness (Sobs) trend in each group}
         \label{fig:sobs-group-time}
       \end{figure}
 
-    \subsubsection*{Preceding Decline of Mircobiome Evenness prior to NEC and LOS}
-    In all patients, microbiota communities evenness, reflected by shannon diversity indices, tended to decrease after birth(Fig\ref{fig:shannon-group-time}, supplemantary!!!! rm\_matrix1\_shannon, p \textless <0.0001). However, from the early pre-onset interval to early disease, the shannon index of the NEC and LOS groups decreased significantly (Fig\ref{fig:shannon-group-time}a.NEC group, early pre-onset = 1.92, early disease = 0.58, p = 0.04, b.LOS group, early pre-onset = 2.47, early disease = 0.47, p = 0.01), while the control group did not show the similar trend (Fig\ref{fig:shannon-group-time}c.control group, early pre-onset = 1.81, early disease =1.00, p = 0.05).
+    \subsubsection*{Recession of Mircobiome Evenness Preceded NEC and LOS}
+    Although, microbiota communities evenness among all patients, reflected by shannon diversity indices, tended to decrease after birth(Fig\ref{fig:shannon-group-time}, supplemantary!!!! rm\_matrix1\_shannon, p \textless <0.0001), the shannon index of the NEC and LOS groups, from the early pre-onset interval to early disease decreased significantly (Fig\ref{fig:shannon-group-time}a.NEC group, early pre-onset = 1.92, early disease = 0.58, p = 0.04, b.LOS group, early pre-onset = 2.47, early disease = 0.47, p = 0.01), while the control group did not show the similar trend (Fig\ref{fig:shannon-group-time}c.control group, early pre-onset = 1.81, early disease =1.00, p = 0.05).
     \begin{figure}[ht]\centering
       \includegraphics[width=\linewidth]{figure/shannon-group-time.pdf}
       \caption{Post-partum microbiome evenness(shannon diversity index) trend in each group}
@@ -185,7 +185,7 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
     \end{figure}
 
     \noindent
-    The inter-time-interval comparison among three groups showed signifant shannon index divergent during during early pre-onset interval (two way RM ANOVA, p = 0.0017 supplementary!!!) and the early disease stage(Fig\ref{fig:shannon-time-groups}, p = 0.0037), implying the role of microbiota distortion in triggering NEC and LOS. In middle disease period, two disease groups showed a non-significant difference in community evenness(Fig\ref{fig:shannon-time-groups} facte "middle disease", p = 0.034), indicating a similar community distribution pattern in both NEC and LOS development. The alleviation of both diseases restored the microbiota evenness back to the level during early pre-onset interval (Fig\ref{fig:shannon-group-time} a. NEC, early pre-onset vs. post disease, p = 0.79; b. LOS, early pre-onset vs. post disease, p = 0.16).
+    The inter-time-interval comparison among three groups showed signifant shannon index divergent during during early pre-onset interval (two way RM ANOVA, p = 0.0017 supplementary!!!) and the early disease stage(Fig\ref{fig:shannon-time-groups}, p = 0.0037), implying the role of microbiota distortion in triggering NEC and LOS. As infants aged, two disease groups showed a non-significant difference in community evenness(Fig\ref{fig:shannon-time-groups} facte "middle disease", p = 0.034), indicating a similar community distribution pattern in both NEC and LOS development. Furthermore, alleviation of both diseases restored the microbiota evenness back to the level during early pre-onset interval (Fig\ref{fig:shannon-group-time} a. NEC, early pre-onset vs. post disease, p = 0.79; b. LOS, early pre-onset vs. post disease, p = 0.16).
     \begin{figure}[ht]\centering
       \includegraphics[width=\linewidth]{figure/shannon-time-groups.pdf}
       \caption{Post-partum microbiome evenness(shannon diversity index) trend in each time interval}
@@ -193,10 +193,19 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
     \end{figure}
 
     \subsubsection*{Microbiome Composition Kinetics}
-    To evaluate time-wise differences in beta-diversity between the microbiomes, we applied Principal Component Analysis (PCoA) to weighted UniFrac distance metric matrices generated for the time interval set. 
+    To evaluate time-wise differences in beta-diversity between the microbiomes, we applied Principal Component Analysis (PCoA) to weighted UniFrac distance metric matrices, considered by timer intervals. During early post partum interval, there appears to be no clear difference in beta-diversity among three groups, with the first principal coordinates accounted for 33.01\%. In the process of entering diseases status, beta diversity continued drifting away, with the first principal coordinates accounted for 35.23\% in early pre-onset phase, 38.36\% in late pre-onset phase and 42.32\% in early disease phase(Fig\ref{fig:pcoa}).
+    During the middle, late and post disease interval, samples from NEC and LOS groups clustered together respectively(). This phylogenetic dissimilarity indicated the different etiopathology and antibiotic regimes between NEC and LOS.
+    \begin{figure}[ht]\centering
+      \includegraphics[width=\linewidth]{figure/pcoa_time_group.pdf}
+      \caption{Beta Diversity}
+      \label{fig:pcoa}
+    \end{figure}
+
+
+    %Principal coordinates analysis ‘PCoA’ plot (beta diversity) demonstrating unweighted UniFrac distance between sample with group points colored for NEC, LOS and control infants. Samples that are clustered closely together are considered to share a larger proportion of the phylogenetic tree in comparison to samples that are more separated. During early life NEC and LOS infants have similar beta diversity, which is very different from the beta diversity of control infants.
 
   \subsection*{Potentially Pathogenic Genus Represented Case Groups}
-  To investigate specific genera that affect the course of diseases development, we filtered the genus and performed tests on a time-interval scale.
+  To investigate specific genera that affect the course of diseases development, we filtered the genus of over 10\% relative abundance among all samples and performed tests on a time-interval scale.
   % taxa analysis
   \begin{figure}[ht]\centering
     \includegraphics[width=\linewidth]{figure/taxa-time.pdf}
@@ -204,8 +213,17 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
     \label{fig:taxa-time}
   \end{figure}
 
+  \noindent
+  Before disease onset, ZIBR model showed significant time-by-necrotising-enterocolitis interaction factors for the progression over time of Bacillus and Solibacillus. Diseases samples showed significantly higer Bacillus(p = 0.032) and lower Solibacillus(p = 0.047) relative to control samples(ZIBR table cited). Furthermore, both case groups experienced a rapid decline in Bacillus when approaching disease stages(NEC from 15.053\% in early post-partum to 0.011\% in early disease interval; LOS from 15.967\% in in early post-partum to 0.002\% in early disease interval).
 
-  These findings are consistent with the Zero-Inflated Beta Random Effect model, in which Bacillus represented OTUs () changed significantly during the the entire hospitalization period(table ZIBR).
+  \noindent
+  For NEC samples, Enterococcus increased significantly from 0.009\% in late pre-onset phase, to 28.801\% in early disease and 58.959\% in middle disease interval (p = 0.032). Meanwhile, after its transient boost in late pre-onset interval(27.231\%), Staphylococcus had been constantly presented (12.571\%) until late interval of NEC. Relative to control samples(6.010\%), NEC samples showed higher Streptococcus(14.439\%, p = 0.023) starting from late pre-onset stage to late disease stage. Peptoclostridium increased during late disease stage(\#diarrhea!!).
+
+  \noindent
+  The development of LOS, however, was characterized by
+
+
+
 
 \section*{Discussion}
 \# During the first months of life, the microbiota undergoes hypervariable changes
@@ -217,7 +235,9 @@ Necrotizing enterocolitis, characterized by rapid progression, high morbidity an
 
 
 \noindent
-Our study has its limitations. We acknowledge that the sample size is limited since this study is single-center-based and the incidence of both diseases are relatively low: among the 1148 preterm infants admitted within July 2013 to December 2014, only five developed NEC. Our results, however, showed the needs of larger study population and longer follow ups. The resultant overfitting possibility inevitably rose up, which became the pitfall in understanding the true microbiota patterns preceding NEC and LOS.
+Our study has its limitations. We acknowledge that the sample size is limited since this study is single-center-based and the incidence of both diseases are relatively low: among the 1148 preterm infants admitted within July 2013 to December 2014, only five developed NEC. The resultant overfitting possibility inevitably rose up, which became the pitfall in understanding the true microbiota patterns preceding NEC and LOS.
+
+Our results, however, showed the needs of larger study population and longer follow ups.
 
 \section*{Conclusions}
 

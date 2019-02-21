@@ -4,46 +4,45 @@ The top-level auxiliary file: manu.aux
 The style file: apalike.bst
 Database file #1: manu.bib
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Figueredo:2009dg"
-You've used 25 entries,
+You've used 27 entries,
             1935 wiz_defined-function locations,
-            641 strings with 9890 characters,
-and the built_in function-call counts, 12340 in all, are:
-= -- 1124
-> -- 797
+            652 strings with 10624 characters,
+and the built_in function-call counts, 13674 in all, are:
+= -- 1235
+> -- 923
 < -- 5
-+ -- 298
-- -- 290
-* -- 1222
-:= -- 2217
-add.period$ -- 74
-call.type$ -- 25
-change.case$ -- 263
-chr.to.int$ -- 25
-cite$ -- 25
-duplicate$ -- 345
-empty$ -- 702
-format.name$ -- 319
-if$ -- 2287
++ -- 346
+- -- 338
+* -- 1364
+:= -- 2462
+add.period$ -- 80
+call.type$ -- 27
+change.case$ -- 296
+chr.to.int$ -- 27
+cite$ -- 27
+duplicate$ -- 372
+empty$ -- 754
+format.name$ -- 369
+if$ -- 2523
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 127
-num.names$ -- 75
-pop$ -- 215
+missing$ -- 26
+newline$ -- 137
+num.names$ -- 81
+pop$ -- 247
 preamble$ -- 1
-purify$ -- 264
+purify$ -- 298
 quote$ -- 0
-skip$ -- 260
+skip$ -- 280
 stack$ -- 0
-substring$ -- 774
-swap$ -- 24
+substring$ -- 829
+swap$ -- 27
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
+type$ -- 160
 warning$ -- 0
-while$ -- 85
+while$ -- 91
 width$ -- 0
-write$ -- 323
-(There were 2 warnings)
+write$ -- 348
+(There was 1 warning)
