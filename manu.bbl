@@ -48,6 +48,13 @@ Giongo, A., Gano, K.~A., Crabb, D.~B., Mukherjee, N., Novelo, L.~L., Casella,
 \newblock Toward defining the autoimmune microbiome for type 1 diabetes.
 \newblock {\em The ISME journal}, 5(1):82.
 
+\bibitem[Jacquot et~al., 2011]{jacquot2011dynamics}
+Jacquot, A., Neveu, D., Aujoulat, F., Mercier, G., Marchandin, H., Jumas-Bilak,
+  E., and Picaud, J.-C. (2011).
+\newblock Dynamics and clinical evolution of bacterial gut microflora in
+  extremely premature patients.
+\newblock {\em The Journal of pediatrics}, 158(3):390--396.
+
 \bibitem[Kassambara, 2017]{kassambara2017ggpubr}
 Kassambara, A. (2017).
 \newblock ggpubr:“ggplot2” based publication ready plots. r package version
@@ -71,6 +78,13 @@ Mago{\v{c}}, T. and Salzberg, S.~L. (2011).
 \newblock Flash: fast length adjustment of short reads to improve genome
   assemblies.
 \newblock {\em Bioinformatics}, 27(21):2957--2963.
+
+\bibitem[Mai et~al., 2011]{mai2011fecal}
+Mai, V., Young, C.~M., Ukhanova, M., Wang, X., Sun, Y., Casella, G., Theriaque,
+  D., Li, N., Sharma, R., Hudak, M., et~al. (2011).
+\newblock Fecal microbiota in premature infants prior to necrotizing
+  enterocolitis.
+\newblock {\em PloS one}, 6(6):e20647.
 
 \bibitem[Pinheiro et~al., 2018]{nlme}
 Pinheiro, J., Bates, D., DebRoy, S., Sarkar, D., and {R Core Team} (2018).
