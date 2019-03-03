@@ -4,45 +4,45 @@ The top-level auxiliary file: manu.aux
 The style file: apalike.bst
 Database file #1: manu.bib
 Warning--I didn't find a database entry for ""
-You've used 29 entries,
+You've used 30 entries,
             1935 wiz_defined-function locations,
-            662 strings with 11212 characters,
-and the built_in function-call counts, 14879 in all, are:
-= -- 1340
-> -- 1019
-< -- 5
-+ -- 382
-- -- 374
-* -- 1491
-:= -- 2680
-add.period$ -- 86
-call.type$ -- 29
-change.case$ -- 323
-chr.to.int$ -- 29
-cite$ -- 29
-duplicate$ -- 400
-empty$ -- 813
-format.name$ -- 407
-if$ -- 2743
+            669 strings with 11332 characters,
+and the built_in function-call counts, 15232 in all, are:
+= -- 1375
+> -- 1026
+< -- 6
++ -- 384
+- -- 376
+* -- 1521
+:= -- 2741
+add.period$ -- 89
+call.type$ -- 30
+change.case$ -- 329
+chr.to.int$ -- 30
+cite$ -- 30
+duplicate$ -- 414
+empty$ -- 843
+format.name$ -- 410
+if$ -- 2814
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 147
-num.names$ -- 87
-pop$ -- 270
+missing$ -- 29
+newline$ -- 152
+num.names$ -- 90
+pop$ -- 273
 preamble$ -- 1
-purify$ -- 325
+purify$ -- 331
 quote$ -- 0
-skip$ -- 301
+skip$ -- 312
 stack$ -- 0
-substring$ -- 896
-swap$ -- 29
+substring$ -- 929
+swap$ -- 30
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 172
+type$ -- 178
 warning$ -- 0
-while$ -- 98
+while$ -- 101
 width$ -- 0
-write$ -- 374
+write$ -- 387
 (There was 1 warning)
