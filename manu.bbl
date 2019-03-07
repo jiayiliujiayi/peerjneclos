@@ -24,12 +24,25 @@ Bouter, K.~E., van Raalte, D.~H., Groen, A.~K., and Nieuwdorp, M. (2017).
   obesity-related metabolic dysfunction.
 \newblock {\em Gastroenterology}, 152(7):1671--1678.
 
+\bibitem[Cani, 2019]{cani2019severe}
+Cani, P.~D. (2019).
+\newblock Severe obesity and gut microbiota: does bariatric surgery really
+  reset the system?
+\newblock {\em Gut}, 68(1):5--6.
+
 \bibitem[Caporaso et~al., 2010]{caporaso2010qiime}
 Caporaso, J.~G., Kuczynski, J., Stombaugh, J., Bittinger, K., Bushman, F.~D.,
   Costello, E.~K., Fierer, N., Pena, A.~G., Goodrich, J.~K., Gordon, J.~I.,
   et~al. (2010).
 \newblock Qiime allows analysis of high-throughput community sequencing data.
 \newblock {\em Nature methods}, 7(5):335.
+
+\bibitem[Cernada et~al., 2016]{Cernada2016Sepsis}
+Cernada, M., Bäuerl, C., Serna, E., Collado, M.~C., Martínez, G.~P., and
+  Vento, M. (2016).
+\newblock Sepsis in preterm infants causes alterations in mucosal gene
+  expression and microbiota profiles compared to non-septic twins.
+\newblock {\em Scientific Reports}, 6(1):25497.
 
 \bibitem[Chen and Li, 2016]{chen2016two}
 Chen, E.~Z. and Li, H. (2016).
@@ -47,11 +60,28 @@ Edgar, R.~C. (2013).
 \newblock Uparse: highly accurate otu sequences from microbial amplicon reads.
 \newblock {\em Nature methods}, 10(10):996.
 
+\bibitem[Ficara et~al., 2018]{ficara2018changes}
+Ficara, M., Pietrella, E., Spada, C., Della Casa~Muttini, E., Lucaccioni, L.,
+  Iughetti, L., and Berardi, A. (2018).
+\newblock Changes of intestinal microbiota in early life.
+\newblock {\em The Journal of Maternal-Fetal \& Neonatal Medicine}, pages 1--8.
+
+\bibitem[Gagliani et~al., 2014]{Gagliani2014The}
+Gagliani, Nicola, Hu, Bo, Huber, Samuel, Elinav, and Richard\&nbsp (2014).
+\newblock The fire within: Microbes inflame tumors.
+\newblock {\em Cell}, 157(4):776--783.
+
 \bibitem[Giongo et~al., 2011]{giongo2011toward}
 Giongo, A., Gano, K.~A., Crabb, D.~B., Mukherjee, N., Novelo, L.~L., Casella,
   G., Drew, J.~C., Ilonen, J., Knip, M., Hy{\"o}ty, H., et~al. (2011).
 \newblock Toward defining the autoimmune microbiome for type 1 diabetes.
 \newblock {\em The ISME journal}, 5(1):82.
+
+\bibitem[Irrazábal et~al., 2014]{Irraz2014The}
+Irrazábal, T., Belcheva, A., Girardin, S.~E., Martin, A., and Philpott, D.~J.
+  (2014).
+\newblock The multifaceted role of the intestinal microbiota in colon cancer.
+\newblock {\em Molecular Cell}, 54(2):309--320.
 
 \bibitem[Jacquot et~al., 2011]{jacquot2011dynamics}
 Jacquot, A., Neveu, D., Aujoulat, F., Mercier, G., Marchandin, H., Jumas-Bilak,
@@ -60,10 +90,29 @@ Jacquot, A., Neveu, D., Aujoulat, F., Mercier, G., Marchandin, H., Jumas-Bilak,
   extremely premature patients.
 \newblock {\em The Journal of pediatrics}, 158(3):390--396.
 
+\bibitem[Jie et~al., 2017]{Jie2017The}
+Jie, Z., Xia, H., Zhong, S.~L., Feng, Q., Li, S., Liang, S., Zhong, H., Liu,
+  Z., Gao, Y., and Zhao, H. (2017).
+\newblock The gut microbiome in atherosclerotic cardiovascular disease.
+\newblock {\em Nature Communications}, 8(1).
+
+\bibitem[Jonsson and Bäckhed, 2017]{Jonsson2017Role}
+Jonsson, A.~L. and Bäckhed, F. (2017).
+\newblock Role of gut microbiota in atherosclerosis.
+\newblock {\em Nature Reviews Cardiology}, 14(2):79.
+
 \bibitem[Kassambara, 2017]{kassambara2017ggpubr}
 Kassambara, A. (2017).
 \newblock ggpubr:“ggplot2” based publication ready plots. r package version
   0.1. 6.
+
+\bibitem[Korpela et~al., 2018]{korpela2018intestinal}
+Korpela, K., Blakstad, E.~W., Moltu, S.~J., Str{\o}mmen, K., Nakstad, B.,
+  R{\o}nnestad, A.~E., Br{\ae}kke, K., Iversen, P.~O., Drevon, C.~A., and Vos,
+  W. (2018).
+\newblock Intestinal microbiota development and gestational age in preterm
+  neonates.
+\newblock {\em Scientific reports}, 8(1):2453.
 
 \bibitem[Liu et~al., 2018]{liu2018splenectomy}
 Liu, Y., Li, J., Jin, Y., Zhao, L., Zhao, F., Feng, J., Li, A., and Wei, Y.
@@ -72,11 +121,20 @@ Liu, Y., Li, J., Jin, Y., Zhao, L., Zhao, F., Feng, J., Li, A., and Wei, Y.
   metabolome in liver cirrhosis patients.
 \newblock {\em Frontiers in Microbiology}, 9.
 
-\bibitem[Madan et~al., 2012]{madan2012normal}
-Madan, J.~C., Farzan, S.~F., Hibberd, P.~L., and Karagas, M.~R. (2012).
+\bibitem[Madan et~al., 2012a]{madan2012normal}
+Madan, J.~C., Farzan, S.~F., Hibberd, P.~L., and Karagas, M.~R. (2012a).
 \newblock Normal neonatal microbiome variation in relation to environmental
   factors, infection and allergy.
 \newblock {\em Current opinion in pediatrics}, 24(6):753.
+
+\bibitem[Madan et~al., 2012b]{madan2012gut}
+Madan, J.~C., Salari, R.~C., Saxena, D., Davidson, L., O'toole, G.~A., Moore,
+  J.~H., Sogin, M.~L., Foster, J.~A., Edwards, W.~H., Palumbo, P., et~al.
+  (2012b).
+\newblock Gut microbial colonisation in premature neonates predicts neonatal
+  sepsis.
+\newblock {\em Archives of Disease in Childhood-Fetal and Neonatal Edition},
+  97(6):F456--F462.
 
 \bibitem[Mago{\v{c}} and Salzberg, 2011]{magovc2011flash}
 Mago{\v{c}}, T. and Salzberg, S.~L. (2011).
@@ -91,10 +149,27 @@ Mai, V., Young, C.~M., Ukhanova, M., Wang, X., Sun, Y., Casella, G., Theriaque,
   enterocolitis.
 \newblock {\em PloS one}, 6(6):e20647.
 
+\bibitem[Neu and Walker, 2011]{neu2011necrotizing}
+Neu, J. and Walker, W.~A. (2011).
+\newblock Necrotizing enterocolitis.
+\newblock {\em New England Journal of Medicine}, 364(3):255--264.
+
+\bibitem[Pickering et~al., 2012]{pickering2012red}
+Pickering, L.~K., Baker, C.~J., Kimberlin, D.~W., et~al. (2012).
+\newblock {\em Red Book, (2012): Report of the Committee on Infectious
+  Diseases}.
+\newblock Am Acad Pediatrics.
+
 \bibitem[Pinheiro et~al., 2018]{nlme}
 Pinheiro, J., Bates, D., DebRoy, S., Sarkar, D., and {R Core Team} (2018).
 \newblock {\em {nlme}: Linear and Nonlinear Mixed Effects Models}.
 \newblock R package version 3.1-137.
+
+\bibitem[Pronovost and Hsiao, 2019]{pronovost2019perinatal}
+Pronovost, G.~N. and Hsiao, E.~Y. (2019).
+\newblock Perinatal interactions between the microbiome, immunity, and
+  neurodevelopment.
+\newblock {\em Immunity}, 50(1):18--36.
 
 \bibitem[Quast et~al., 2012]{quast2012silva}
 Quast, C., Pruesse, E., Yilmaz, P., Gerken, J., Schweer, T., Yarza, P.,
@@ -103,11 +178,22 @@ Quast, C., Pruesse, E., Yilmaz, P., Gerken, J., Schweer, T., Yarza, P.,
   processing and web-based tools.
 \newblock {\em Nucleic acids research}, 41(D1):D590--D596.
 
-\bibitem[Sarkar et~al., 2016]{sarkar2016psychobiotics}
-Sarkar, A., Lehto, S.~M., Harty, S., Dinan, T.~G., Cryan, J.~F., and Burnet,
-  P.~W. (2016).
-\newblock Psychobiotics and the manipulation of bacteria--gut--brain signals.
-\newblock {\em Trends in neurosciences}, 39(11):763--781.
+\bibitem[Rao et~al., 2016]{rao2016one}
+Rao, S.~C., Srinivasjois, R., and Moon, K. (2016).
+\newblock One dose per day compared to multiple doses per day of gentamicin for
+  treatment of suspected or proven sepsis in neonates.
+\newblock {\em Cochrane database of systematic reviews}, (12).
+
+\bibitem[Rosenbaum et~al., 2015]{rosenbaum2015gut}
+Rosenbaum, M., Knight, R., and Leibel, R.~L. (2015).
+\newblock The gut microbiota in human energy homeostasis and obesity.
+\newblock {\em Trends in Endocrinology \& Metabolism}, 26(9):493--501.
+
+\bibitem[Sampson and Mazmanian, 2015]{Sampson2015Control}
+Sampson, T.~R. and Mazmanian, S.~K. (2015).
+\newblock Control of brain development, function, and behavior by the
+  microbiome.
+\newblock {\em Cell Host \& Microbe}, 17(5):565--576.
 
 \bibitem[Savage et~al., 2018]{savage2018prospective}
 Savage, J.~H., Lee-Sarwar, K.~A., Sordillo, J., Bunyavanich, S., Zhou, Y.,
@@ -133,6 +219,39 @@ Schwiertz, A., Gruhl, B., L{\"o}bnitz, M., Michel, P., Radke, M., and Blaut, M.
   preterm infants in comparison with breast-fed, full-term infants.
 \newblock {\em Pediatric research}, 54(3):393.
 
+\bibitem[Sears and Garrett, 2014]{Sears2014Microbes}
+Sears, C.~L. and Garrett, W.~S. (2014).
+\newblock Microbes, microbiota, and colon cancer.
+\newblock {\em Cell Host \& Microbe}, 15(3):317--328.
+
+\bibitem[Sharon et~al., 2015]{Sharon2015Gut}
+Sharon, U., Alain, S., Prakeshkumar, S., David, M., and O'Connor, D.~L. (2015).
+\newblock Gut microbiota of the very-low-birth-weight infant.
+\newblock {\em Pediatric Research}, 77(1-2):205.
+
+\bibitem[Shin et~al., 2015]{shin2015first}
+Shin, H., Pei, Z., Martinez, K.~A., Rivera-Vinas, J.~I., Mendez, K., Cavallin,
+  H., and Dominguez-Bello, M.~G. (2015).
+\newblock The first microbial environment of infants born by c-section: the
+  operating room microbes.
+\newblock {\em Microbiome}, 3(1):59.
+
+\bibitem[Stewart et~al., 2018]{stewart2018temporal}
+Stewart, C.~J., Ajami, N.~J., O’Brien, J.~L., Hutchinson, D.~S., Smith,
+  D.~P., Wong, M.~C., Ross, M.~C., Lloyd, R.~E., Doddapaneni, H., Metcalf,
+  G.~A., et~al. (2018).
+\newblock Temporal development of the gut microbiome in early childhood from
+  the teddy study.
+\newblock {\em Nature}, 562(7728):583.
+
+\bibitem[Stewart et~al., 2017]{Stewart2017Longitudinal}
+Stewart, C.~J., Embleton, N.~D., Marrs, E. C.~L., Smith, D.~P., Fofanova, T.,
+  Nelson, A., Skeath, T., Perry, J.~D., Petrosino, J.~F., and Berrington, J.~E.
+  (2017).
+\newblock Longitudinal development of the gut microbiome and metabolome in
+  preterm neonates with late onset sepsis and healthy controls.
+\newblock {\em Microbiome}, 5(1):75.
+
 \bibitem[Stokholm et~al., 2018]{stokholm2018maturation}
 Stokholm, J., Blaser, M.~J., Thorsen, J., Rasmussen, M.~A., Waage, J., Vinding,
   R.~K., Schoos, A.-M.~M., Kun{\o}e, A., Fink, N.~R., Chawes, B.~L., et~al.
@@ -140,15 +259,25 @@ Stokholm, J., Blaser, M.~J., Thorsen, J., Rasmussen, M.~A., Waage, J., Vinding,
 \newblock Maturation of the gut microbiome and risk of asthma in childhood.
 \newblock {\em Nature communications}, 9(1):141.
 
+\bibitem[Stoll et~al., 2015]{stoll2015trends}
+Stoll, B.~J., Hansen, N.~I., Bell, E.~F., Walsh, M.~C., Carlo, W.~A.,
+  Shankaran, S., Laptook, A.~R., S{\'a}nchez, P.~J., Van~Meurs, K.~P., Wyckoff,
+  M., et~al. (2015).
+\newblock Trends in care practices, morbidity, and mortality of extremely
+  preterm neonates, 1993-2012.
+\newblock {\em Jama}, 314(10):1039--1051.
+
 \bibitem[Tang et~al., 2017]{tang2017gut}
 Tang, W.~W., Kitai, T., and Hazen, S.~L. (2017).
 \newblock Gut microbiota in cardiovascular health and disease.
 \newblock {\em Circulation research}, 120(7):1183--1196.
 
-\bibitem[Tilg et~al., 2016]{tilg2016gut}
-Tilg, H., Cani, P.~D., and Mayer, E.~A. (2016).
-\newblock Gut microbiome and liver diseases.
-\newblock {\em Gut}, 65(12):2035--2044.
+\bibitem[Tarr and Warner, 2016]{tarr2016gut}
+Tarr, P.~I. and Warner, B.~B. (2016).
+\newblock Gut bacteria and late-onset neonatal bloodstream infections in
+  preterm infants.
+\newblock In {\em Seminars in Fetal and Neonatal Medicine}, volume~21, pages
+  388--393. Elsevier.
 
 \bibitem[Vatanen et~al., 2018]{vatanen2018human}
 Vatanen, T., Franzosa, E.~A., Schwager, R., Tripathi, S., Arthur, T.~D., Vehik,
@@ -157,6 +286,19 @@ Vatanen, T., Franzosa, E.~A., Schwager, R., Tripathi, S., Arthur, T.~D., Vehik,
 \newblock The human gut microbiome in early-onset type 1 diabetes from the
   teddy study.
 \newblock {\em Nature}, 562(7728):589.
+
+\bibitem[Vatanen et~al., 2016]{Vatanen2016Variation}
+Vatanen, T., Kostic, A., D’Hennezel, E., Siljander, H., Franzosa, E.,
+  Yassour, M., Kolde, R., Vlamakis, H., Arthur, T., and Hämäläinen, A.~M.
+  (2016).
+\newblock Variation in microbiome lps immunogenicity contributes to
+  autoimmunity in humans.
+\newblock {\em Cell}, 165(4):842--853.
+
+\bibitem[Vogelzang et~al., 2018]{vogelzang2018microbiota}
+Vogelzang, A., Guerrini, M.~M., Minato, N., and Fagarasan, S. (2018).
+\newblock Microbiota—an amplifier of autoimmunity.
+\newblock {\em Current opinion in immunology}, 55:15--21.
 
 \bibitem[Wang et~al., 2007]{wang2007naive}
 Wang, Q., Garrity, G.~M., Tiedje, J.~M., and Cole, J.~R. (2007).
@@ -186,11 +328,21 @@ Wickham, H. (2016).
 \newblock {\em ggplot2: Elegant Graphics for Data Analysis}.
 \newblock Springer-Verlag New York.
 
+\bibitem[Winer et~al., 2016]{winer2016intestinal}
+Winer, D.~A., Luck, H., Tsai, S., and Winer, S. (2016).
+\newblock The intestinal immune system in obesity and insulin resistance.
+\newblock {\em Cell metabolism}, 23(3):413--426.
+
 \bibitem[Zhou et~al., 2015]{zhou2015longitudinal}
 Zhou, Y., Shan, G., Sodergren, E., Weinstock, G., Walker, W.~A., and Gregory,
   K.~E. (2015).
 \newblock Longitudinal analysis of the premature infant intestinal microbiome
   prior to necrotizing enterocolitis: a case-control study.
 \newblock {\em PloS one}, 10(3):e0118632.
+
+\bibitem[Zmora et~al., 2019]{zmora2019}
+Zmora, N., Suez, J., and Elinav, E. (2019).
+\newblock You are what you eat: diet, health and the gut microbiota.
+\newblock {\em Nature Reviews Gastroenterology \& Hepatology}, 16(1):35--56.
 
 \end{thebibliography}

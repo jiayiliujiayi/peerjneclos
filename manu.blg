@@ -3,46 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: manu.aux
 The style file: apalike.bst
 Database file #1: manu.bib
-Warning--I didn't find a database entry for ""
-You've used 30 entries,
+Warning--there's a number but no volume in rao2016one
+Warning--can't use both volume and number fields in tarr2016gut
+You've used 54 entries,
             1935 wiz_defined-function locations,
-            669 strings with 11332 characters,
-and the built_in function-call counts, 15232 in all, are:
-= -- 1375
-> -- 1026
-< -- 6
-+ -- 384
-- -- 376
-* -- 1521
-:= -- 2741
-add.period$ -- 89
-call.type$ -- 30
-change.case$ -- 329
-chr.to.int$ -- 30
-cite$ -- 30
-duplicate$ -- 414
-empty$ -- 843
-format.name$ -- 410
-if$ -- 2814
-int.to.chr$ -- 1
+            807 strings with 16908 characters,
+and the built_in function-call counts, 26991 in all, are:
+= -- 2446
+> -- 1777
+< -- 16
++ -- 669
+- -- 648
+* -- 2669
+:= -- 4834
+add.period$ -- 162
+call.type$ -- 54
+change.case$ -- 580
+chr.to.int$ -- 53
+cite$ -- 56
+duplicate$ -- 766
+empty$ -- 1512
+format.name$ -- 718
+if$ -- 5025
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 29
-newline$ -- 152
-num.names$ -- 90
-pop$ -- 273
+missing$ -- 54
+newline$ -- 272
+num.names$ -- 162
+pop$ -- 481
 preamble$ -- 1
-purify$ -- 331
+purify$ -- 583
 quote$ -- 0
-skip$ -- 312
+skip$ -- 579
 stack$ -- 0
-substring$ -- 929
-swap$ -- 30
-text.length$ -- 0
+substring$ -- 1596
+swap$ -- 70
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 178
-warning$ -- 0
-while$ -- 101
+type$ -- 320
+warning$ -- 2
+while$ -- 181
 width$ -- 0
-write$ -- 387
-(There was 1 warning)
+write$ -- 700
+(There were 2 warnings)
