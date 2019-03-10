@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.15)  7 MAR 2019 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.15)  10 MAR 2019 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -863,42 +863,128 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 53.
- [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+[1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 82.
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlptm.fd
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 79.
+[2]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 81.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 82.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 83.
- [2]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 88.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 81.
 
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 87.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3]
+)
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+ []
+
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 110.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 109.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 110.
- [4]
-<figure/sheme.pdf, id=227, 1027.84pt x 439.09645pt>
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 109.
+[4]
+<figure/sheme.pdf, id=234, 1027.84pt x 439.09645pt>
 File: figure/sheme.pdf Graphic file (type pdf)
 <use figure/sheme.pdf>
-Package pdftex.def Info: figure/sheme.pdf  used on input line 143.
+Package pdftex.def Info: figure/sheme.pdf  used on input line 142.
 (pdftex.def)             Requested size: 415.12572pt x 177.34398pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\OT1/ptm/b/n/10 Control
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\OT1/ptm/b/n/10 Statistical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]\OT1/ptm/m/n/10 (+20) Kruskal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]\OT1/ptm/m/n/10 (+20) 1416.3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\OT1/ptm/m/n/10 (+20) (773.4-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]\OT1/ptm/m/n/10 (+20) 1141.7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\OT1/ptm/m/n/10 (+20) (633.4-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]\OT1/ptm/m/n/10 (+20) 1527.4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\OT1/ptm/m/n/10 (+20) (1391.6-
  []
 
 
@@ -907,134 +993,150 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--158
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-[]\OT1/ptm/m/n/10 (+20) 1416.3
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-\OT1/ptm/m/n/10 (+20) (773.4-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-[]\OT1/ptm/m/n/10 (+20) 1141.7
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-\OT1/ptm/m/n/10 (+20) (633.4-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-[]\OT1/ptm/m/n/10 (+20) 1527.4
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-\OT1/ptm/m/n/10 (+20) (1391.6-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
-[]\OT1/ptm/m/n/10 (+20) Kruskal-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\OT1/ptm/m/n/10 (+20) Wilcoxon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []\OT1/ptm/m/n/10 (+20) 54.3 (13.5-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []\OT1/ptm/m/n/10 (+20) 60.0 (24.8-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []\OT1/ptm/m/n/10 (+20) 32.9 (26.3-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []\OT1/ptm/m/n/10 (+20) Kruskal-
  []
 
-
-Overfull \hbox (23.63522pt too wide) in paragraph at lines 171--172
-\OT1/ptm/m/n/10 (-20) Furthermore, pair-wise com-par-i-ons be-tween any ad-ja-c
-ent two time in-ter-vals within the same group(supplementary
- []
-
-[5 <./figure/sheme.pdf>]
-<figure/sobs-group-time.pdf, id=316, 722.7pt x 722.7pt>
-File: figure/sobs-group-time.pdf Graphic file (type pdf)
-<use figure/sobs-group-time.pdf>
-Package pdftex.def Info: figure/sobs-group-time.pdf  used on input line 176.
-(pdftex.def)             Requested size: 415.12572pt x 415.13022pt.
-<figure/shannon-group-time.pdf, id=320, 722.7pt x 722.7pt>
-File: figure/shannon-group-time.pdf Graphic file (type pdf)
-<use figure/shannon-group-time.pdf>
-Package pdftex.def Info: figure/shannon-group-time.pdf  used on input line 186.
-
-(pdftex.def)             Requested size: 415.12572pt x 415.13022pt.
-<figure/shannon-time-groups.pdf, id=324, 578.16pt x 722.7pt>
+[5]
+<figure/sobs-group-time2.pdf, id=251, 939.51pt x 469.755pt>
+File: figure/sobs-group-time2.pdf Graphic file (type pdf)
+<use figure/sobs-group-time2.pdf>
+Package pdftex.def Info: figure/sobs-group-time2.pdf  used on input line 173.
+(pdftex.def)             Requested size: 415.12572pt x 207.56015pt.
+<figure/shannon-group-time2.pdf, id=255, 939.51pt x 469.755pt>
+File: figure/shannon-group-time2.pdf Graphic file (type pdf)
+<use figure/shannon-group-time2.pdf>
+Package pdftex.def Info: figure/shannon-group-time2.pdf  used on input line 183
+.
+(pdftex.def)             Requested size: 415.12572pt x 207.56015pt.
+ [6 <./figure/sheme.pdf>]
+<figure/shannon-time-groups.pdf, id=341, 578.16pt x 722.7pt>
 File: figure/shannon-time-groups.pdf Graphic file (type pdf)
 <use figure/shannon-time-groups.pdf>
-Package pdftex.def Info: figure/shannon-time-groups.pdf  used on input line 197
+Package pdftex.def Info: figure/shannon-time-groups.pdf  used on input line 194
 .
 (pdftex.def)             Requested size: 415.12572pt x 518.899pt.
- [6]
-<figure/pcoa_time_group.pdf, id=335, 1156.32pt x 1091.54799pt>
+ [7 <./figure/sobs-group-time2.pdf> <./figure/shannon-group-time2.pdf>]
+<figure/pcoa_time_group.pdf, id=364, 1156.32pt x 1091.54799pt>
 File: figure/pcoa_time_group.pdf Graphic file (type pdf)
 <use figure/pcoa_time_group.pdf>
-Package pdftex.def Info: figure/pcoa_time_group.pdf  used on input line 208.
+Package pdftex.def Info: figure/pcoa_time_group.pdf  used on input line 205.
 (pdftex.def)             Requested size: 415.12572pt x 391.8577pt.
- [7 <./figure/sobs-group-time.pdf>]
+
 
 LaTeX Warning: Reference `fig:shannon-group-time,fig:shannon-time-groups' on pa
-ge 8 undefined on input line 217.
+ge 8 undefined on input line 214.
 
-<figure/taxa-time.pdf, id=350, 1156.32pt x 650.43pt>
-File: figure/taxa-time.pdf Graphic file (type pdf)
-<use figure/taxa-time.pdf>
-Package pdftex.def Info: figure/taxa-time.pdf  used on input line 219.
-(pdftex.def)             Requested size: 415.12572pt x 233.49959pt.
-[8 <./figure/shannon-group-time.pdf>] [9] (./manu.bbl [10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+<figure/taxon.pdf, id=367, 749.64368pt x 988.85432pt>
+File: figure/taxon.pdf Graphic file (type pdf)
+<use figure/taxon.pdf>
+Package pdftex.def Info: figure/taxon.pdf  used on input line 217.
+(pdftex.def)             Requested size: 415.12572pt x 547.59846pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
+
+ []
+
+(./manu.bbl [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11])
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13])
 
 AED: lastpage setting LastPage
-[12] [13 <./figure/shannon-time-groups.pdf>] [14 <./figure/pcoa_time_group.pdf>
-] [15 <./figure/taxa-time.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
+[14] [15 <./figure/shannon-time-groups.pdf>] [16 <./figure/pcoa_time_group.pdf>
+] [17 <./figure/taxon.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
  (./manu.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 Package rerunfilecheck Info: File `manu.out' has not changed.
 (rerunfilecheck)             Checksum: 94F65FD6E3A2D15D7B546070322E60DA;52.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
  ) 
 Here is how much of TeX's memory you used:
- 13031 strings out of 492649
- 195530 string characters out of 6129621
- 439624 words of memory out of 5000000
- 16362 multiletter control sequences out of 15000+600000
- 58103 words of font info for 247 fonts, out of 8000000 for 9000
+ 13141 strings out of 492649
+ 198184 string characters out of 6129621
+ 441509 words of memory out of 5000000
+ 16437 multiletter control sequences out of 15000+600000
+ 58600 words of font info for 252 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,45p,1464b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,45p,1499b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
@@ -1044,10 +1146,10 @@ t/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2018/texmf-dist/font
 s/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw
 /times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on manu.pdf (15 pages, 1211107 bytes).
+Output written on manu.pdf (17 pages, 1716308 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 582 compressed objects within 6 object streams
+ 112 named destinations out of 1000 (max. 500000)
  45095 words of extra memory for PDF output out of 51595 (max. 10000000)
 
