@@ -160,13 +160,25 @@ Greenwood, C., Morrow, A.~L., Lagomarcino, A.~J., Altaye, M., Taft, D.~H., Yu,
   lower bacterial diversity and higher relative abundance of enterobacter.
 \newblock {\em The Journal of pediatrics}, 165(1):23--29.
 
-\bibitem[Hintz et~al., 2005]{hintz2005neurodevelopmental}
-Hintz, S.~R., Kendrick, D.~E., Stoll, B.~J., Vohr, B.~R., Fanaroff, A.~A.,
-  Donovan, E.~F., Poole, W.~K., Blakely, M.~L., Wright, L., Higgins, R., et~al.
-  (2005).
-\newblock Neurodevelopmental and growth outcomes of extremely low birth weight
-  infants after necrotizing enterocolitis.
-\newblock {\em Pediatrics}, 115(3):696--703.
+\bibitem[Grier et~al., 2017]{grier2017impact}
+Grier, A., Qiu, X., Bandyopadhyay, S., Holden-Wiltse, J., Kessler, H.~A., Gill,
+  A.~L., Hamilton, B., Huyck, H., Misra, S., Mariani, T.~J., et~al. (2017).
+\newblock Impact of prematurity and nutrition on the developing gut microbiome
+  and preterm infant growth.
+\newblock {\em Microbiome}, 5(1):158.
+
+\bibitem[Hall and O'TOOLE, 1935]{hall1935intestinal}
+Hall, I.~C. and O'TOOLE, E. (1935).
+\newblock Intestinal flora in new-born infants: with a description of a new
+  pathogenic anaerobe, bacillus difficilis.
+\newblock {\em American journal of diseases of children}, 49(2):390--402.
+
+\bibitem[Hermansson et~al., 2019]{hermansson2019breast}
+Hermansson, H., Kumar, H., Collado, M.~C., Salminen, S., Isolauri, E., and
+  Rautava, S. (2019).
+\newblock Breast milk microbiota is shaped by mode of delivery and intrapartum
+  antibiotic exposure.
+\newblock {\em Frontiers in nutrition}, 6.
 
 \bibitem[Irrazábal et~al., 2014]{Irraz2014The}
 Irrazábal, T., Belcheva, A., Girardin, S.~E., Martin, A., and Philpott, D.~J.
@@ -195,20 +207,6 @@ Jie, Z., Xia, H., Zhong, S.~L., Feng, Q., Li, S., Liang, S., Zhong, H., Liu,
 \newblock The gut microbiome in atherosclerotic cardiovascular disease.
 \newblock {\em Nature Communications}, 8(1).
 
-\bibitem[Johnson et~al., 2014]{johnson2014economic}
-Johnson, T.~J., Patel, A.~L., Bigger, H.~R., Engstrom, J.~L., and Meier, P.~P.
-  (2014).
-\newblock Economic benefits and costs of human milk feedings: a strategy to
-  reduce the risk of prematurity-related morbidities in very-low-birth-weight
-  infants.
-\newblock {\em Advances in nutrition}, 5(2):207--212.
-
-\bibitem[Johnson et~al., 2013]{johnson2013cost}
-Johnson, T.~J., Patel, A.~L., Jegier, B.~J., Engstrom, J.~L., and Meier, P.~P.
-  (2013).
-\newblock Cost of morbidities in very low birth weight infants.
-\newblock {\em The Journal of pediatrics}, 162(2):243--249.
-
 \bibitem[Jonsson and Bäckhed, 2017]{Jonsson2017Role}
 Jonsson, A.~L. and Bäckhed, F. (2017).
 \newblock Role of gut microbiota in atherosclerosis.
@@ -218,6 +216,13 @@ Jonsson, A.~L. and Bäckhed, F. (2017).
 Kassambara, A. (2017).
 \newblock ggpubr:“ggplot2” based publication ready plots. r package version
   0.1. 6.
+
+\bibitem[Khodayar-Pardo et~al., 2014]{khodayar2014impact}
+Khodayar-Pardo, P., Mira-Pascual, L., Collado, M., and Martinez-Costa, C.
+  (2014).
+\newblock Impact of lactation stage, gestational age and mode of delivery on
+  breast milk microbiota.
+\newblock {\em Journal of Perinatology}, 34(8):599.
 
 \bibitem[Kimberlin et~al., 2018]{kimberlin2018red}
 Kimberlin, D.~W. et~al. (2018).
@@ -238,6 +243,15 @@ Kuppala, V.~S., Meinzen-Derr, J., Morrow, A.~L., and Schibler, K.~R. (2011).
 \newblock Prolonged initial empirical antibiotic treatment is associated with
   adverse outcomes in premature infants.
 \newblock {\em The Journal of pediatrics}, 159(5):720--725.
+
+\bibitem[La~Rosa et~al., 2014]{la2014patterned}
+La~Rosa, P.~S., Warner, B.~B., Zhou, Y., Weinstock, G.~M., Sodergren, E.,
+  Hall-Moore, C.~M., Stevens, H.~J., Bennett, W.~E., Shaikh, N., Linneman,
+  L.~A., et~al. (2014).
+\newblock Patterned progression of bacterial populations in the premature
+  infant gut.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  111(34):12522--12527.
 
 \bibitem[Liu et~al., 2018]{liu2018splenectomy}
 Liu, Y., Li, J., Jin, Y., Zhao, L., Zhao, F., Feng, J., Li, A., and Wei, Y.
@@ -290,15 +304,29 @@ Martinez, F.~E., Ferri, W.~A., Leone, C.~R., De~Almeida, M. F.~B., Guinsburg,
 \newblock {\em Journal of pediatric gastroenterology and nutrition},
   65(1):107--110.
 
-\bibitem[Mowitz et~al., 2018]{mowitz2018cost}
-Mowitz, M.~E., Dukhovny, D., and Zupancic, J.~A. (2018).
-\newblock The cost of necrotizing enterocolitis in premature infants.
-\newblock In {\em Seminars in Fetal and Neonatal Medicine}. Elsevier.
+\bibitem[Nakayama et~al., 2003]{nakayama2003intestinal}
+Nakayama, M., Yajima, M., Hatano, S., Yajima, T., and Kuwata, T. (2003).
+\newblock Intestinal adherent bacteria and bacterial translocation in
+  breast-fed and formula-fed rats in relation to susceptibility to infection.
+\newblock {\em Pediatric research}, 54(3):364.
 
 \bibitem[Neu and Walker, 2011]{neu2011necrotizing}
 Neu, J. and Walker, W.~A. (2011).
 \newblock Necrotizing enterocolitis.
 \newblock {\em New England Journal of Medicine}, 364(3):255--264.
+
+\bibitem[Normann et~al., 2013]{normann2013intestinal}
+Normann, E., Fahl{\'e}n, A., Engstrand, L., and Lilja, H.~E. (2013).
+\newblock Intestinal microbial profiles in extremely preterm infants with and
+  without necrotizing enterocolitis.
+\newblock {\em Acta paediatrica}, 102(2):129--136.
+
+\bibitem[Pereira et~al., 2016]{pereira2016complete}
+Pereira, F.~L., J{\'u}nior, C. A.~O., Silva, R.~O., Dorella, F.~A., Carvalho,
+  A.~F., Almeida, G.~M., Leal, C.~A., Lobato, F.~C., and Figueiredo, H.~C.
+  (2016).
+\newblock Complete genome sequence of peptoclostridium difficile strain z31.
+\newblock {\em Gut pathogens}, 8(1):11.
 
 \bibitem[Pickering et~al., 2012]{pickering2012red}
 Pickering, L.~K., Baker, C.~J., Kimberlin, D.~W., et~al. (2012).
@@ -329,6 +357,13 @@ Rao, S.~C., Srinivasjois, R., and Moon, K. (2016).
 \newblock One dose per day compared to multiple doses per day of gentamicin for
   treatment of suspected or proven sepsis in neonates.
 \newblock {\em Cochrane database of systematic reviews}, (12).
+
+\bibitem[Rodriguez et~al., 2016]{rodriguez2016clostridium}
+Rodriguez, C., Van~Broeck, J., Taminiau, B., Delm{\'e}e, M., and Daube, G.
+  (2016).
+\newblock Clostridium difficile infection: early history, diagnosis and
+  molecular strain typing methods.
+\newblock {\em Microbial pathogenesis}, 97:59--78.
 
 \bibitem[Rosenbaum et~al., 2015]{rosenbaum2015gut}
 Rosenbaum, M., Knight, R., and Leibel, R.~L. (2015).
@@ -369,13 +404,6 @@ Schwiertz, A., Gruhl, B., L{\"o}bnitz, M., Michel, P., Radke, M., and Blaut, M.
 Sears, C.~L. and Garrett, W.~S. (2014).
 \newblock Microbes, microbiota, and colon cancer.
 \newblock {\em Cell Host \& Microbe}, 15(3):317--328.
-
-\bibitem[Shah et~al., 2015]{shah2015risk}
-Shah, J., Jefferies, A.~L., Yoon, E.~W., Lee, S.~K., Shah, P.~S., Network,
-  C.~N., et~al. (2015).
-\newblock Risk factors and outcomes of late-onset bacterial sepsis in preterm
-  neonates born at< 32 weeks' gestation.
-\newblock {\em American journal of perinatology}, 32(07):675--682.
 
 \bibitem[Sharon et~al., 2015]{Sharon2015Gut}
 Sharon, U., Alain, S., Prakeshkumar, S., David, M., and O'Connor, D.~L. (2015).
@@ -493,12 +521,25 @@ Winer, D.~A., Luck, H., Tsai, S., and Winer, S. (2016).
 \newblock The intestinal immune system in obesity and insulin resistance.
 \newblock {\em Cell metabolism}, 23(3):413--426.
 
+\bibitem[Xiao, 2018]{ggsci}
+Xiao, N. (2018).
+\newblock {\em ggsci: Scientific Journal and Sci-Fi Themed Color Palettes for
+  'ggplot2'}.
+\newblock R package version 2.9.
+
 \bibitem[Yatsunenko et~al., 2012]{yatsunenko2012human}
 Yatsunenko, T., Rey, F.~E., Manary, M.~J., Trehan, I., Dominguez-Bello, M.~G.,
   Contreras, M., Magris, M., Hidalgo, G., Baldassano, R.~N., Anokhin, A.~P.,
   et~al. (2012).
 \newblock Human gut microbiome viewed across age and geography.
 \newblock {\em nature}, 486(7402):222.
+
+\bibitem[Zhou et~al., 2016]{zhou2016increased}
+Zhou, Y., Chen, H., He, H., Du, Y., Hu, J., Li, Y., Li, Y., Zhou, Y., Wang, H.,
+  Chen, Y., et~al. (2016).
+\newblock Increased enterococcus faecalis infection is associated with
+  clinically active crohn disease.
+\newblock {\em Medicine}, 95(39).
 
 \bibitem[Zhou et~al., 2015]{zhou2015longitudinal}
 Zhou, Y., Shan, G., Sodergren, E., Weinstock, G., Walker, W.~A., and Gregory,
@@ -511,12 +552,5 @@ Zhou, Y., Shan, G., Sodergren, E., Weinstock, G., Walker, W.~A., and Gregory,
 Zmora, N., Suez, J., and Elinav, E. (2019).
 \newblock You are what you eat: diet, health and the gut microbiota.
 \newblock {\em Nature Reviews Gastroenterology \& Hepatology}, 16(1):35--56.
-
-\bibitem[Zonnenberg et~al., 2019]{zonnenberg2019neurodevelopmental}
-Zonnenberg, I., van Dijk-Lokkart, E., van~den Dungen, F., Vermeulen, R., and
-  van Weissenbruch, M. (2019).
-\newblock Neurodevelopmental outcome at 2 years of age in preterm infants with
-  late-onset sepsis.
-\newblock {\em European journal of pediatrics}, pages 1--8.
 
 \end{thebibliography}
