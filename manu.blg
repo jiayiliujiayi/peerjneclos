@@ -4,48 +4,49 @@ The top-level auxiliary file: manu.aux
 The style file: apalike.bst
 Database file #1: manu.bib
 Warning--there's a number but no volume in bury2001enteral
+Warning--can't use both volume and number fields in gomez2016human
 Warning--there's a number but no series in kimberlin2018red
 Warning--there's a number but no volume in rao2016one
 Warning--can't use both volume and number fields in tarr2016gut
-You've used 84 entries,
+You've used 94 entries,
             1935 wiz_defined-function locations,
-            964 strings with 25470 characters,
-and the built_in function-call counts, 42521 in all, are:
-= -- 3837
-> -- 2900
-< -- 23
-+ -- 1083
-- -- 1062
-* -- 4226
-:= -- 7655
-add.period$ -- 253
-call.type$ -- 84
-change.case$ -- 925
-chr.to.int$ -- 83
-cite$ -- 88
-duplicate$ -- 1180
-empty$ -- 2319
-format.name$ -- 1169
-if$ -- 7879
+            1011 strings with 28148 characters,
+and the built_in function-call counts, 48094 in all, are:
+= -- 4342
+> -- 3290
+< -- 26
++ -- 1233
+- -- 1206
+* -- 4766
+:= -- 8637
+add.period$ -- 285
+call.type$ -- 94
+change.case$ -- 1044
+chr.to.int$ -- 93
+cite$ -- 99
+duplicate$ -- 1345
+empty$ -- 2617
+format.name$ -- 1321
+if$ -- 8932
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 84
-newline$ -- 422
-num.names$ -- 252
-pop$ -- 772
+missing$ -- 94
+newline$ -- 472
+num.names$ -- 282
+pop$ -- 886
 preamble$ -- 1
-purify$ -- 930
+purify$ -- 1049
 quote$ -- 0
-skip$ -- 894
+skip$ -- 1014
 stack$ -- 0
-substring$ -- 2424
-swap$ -- 102
-text.length$ -- 4
+substring$ -- 2727
+swap$ -- 131
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 498
-warning$ -- 4
-while$ -- 279
+type$ -- 558
+warning$ -- 5
+while$ -- 316
 width$ -- 0
-write$ -- 1087
-(There were 4 warnings)
+write$ -- 1219
+(There were 5 warnings)

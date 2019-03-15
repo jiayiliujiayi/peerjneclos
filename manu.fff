@@ -1,0 +1,41 @@
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\linewidth]{patinfo.pdf} %for latex generated
+  \caption{Schematic of Study Design. \\ Longitudinal fecal samples were collected over from birth to decease or discharge from preterm infants in the NICU. Bacterial diversity and compositions were then characterized. Image credit: Icons made by Freepik from \href{www.flaticon.com}{www.flaticon.com}}
+  \label{fig:design}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]\centering
+  \includegraphics[width=\linewidth]{sobs-group-time2.pdf}
+  \caption{Trend in microbiome richness (Sobs) over time. \\  Shows microbial evenness trend in stools from cases and controls. (A) control group.  (B) NEC group. (C) LOS group. Horizontal line shows median, box boundaries show 25th and 75th percentiles. Sobs index value of each sample is depicted as one dot. Indices are analyzed using the Kruskal\-Wallis test followed by the Mann\-Whitney U test in comparisons between two adjacent intervals.}
+  \label{fig:sobs-group-time}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]\centering
+  \includegraphics[width=\linewidth]{Shannon-group-time2.pdf}
+  \caption{Post-partum microbiome evenness (Shannon diversity) trend in each group. \\ Shows microbial richness trend in stools from cases and controls. (A) control group. (B) NEC group. (C) LOS group. Horizontal line shows median, box boundaries show 25th and 75th percentiles. Shannon index value of each stool is depicted as one dot. p = 0\IeC {\textperiodcentered }004 for NEC and p = 0.010 for LOS from early pre\-onset to early disease (two way RM ANOVA) indicating significantly discordant trends in bacterial diversity preceding disease onset. p values between two adjacent intervals were calculated by the Mann\-Whitney U test. }
+  \label{fig:Shannon-group-time}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]\centering
+  \includegraphics[width=\linewidth]{Shannon-time-groups.pdf}
+  \caption{Post-partum microbiome evenness (Shannon diversity) in each time-interval. \\ Shows microbial richness trend in stools from cases and controls (A) control group. (B) NEC group. (C) LOS group. Horizontal line shows median, box boundaries show 25th and 75th percentiles.  Shannon index value of each stool is depicted as one dot. p values among three groups were calculated by Kruskal\-Wallis test. Comparisons between two groups were calculated by the Mann\-Whitney test. }
+  \label{fig:Shannon-time-groups}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]\centering
+  \includegraphics[width=\linewidth]{pcoa_time_group.pdf}
+  \caption{Post-partum microbiome evenness (Shannon diversity) in each time-interval. \\ Shows microbial richness trend in stools from cases and controls (A) control group. (B) NEC group. (C) LOS group. Horizontal line shows median, box boundaries show 25th and 75th percentiles.  Shannon index value of each stool is depicted as one dot. p values among three groups were calculated by Kruskal\-Wallis test. Comparisons between two groups were calculated by the Mann\-Whitney test. }
+  \label{fig:pcoa}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]\centering
+  \includegraphics[width=\linewidth]{taxon.pdf}
+  \caption{Alluvial diagrams showing temporal development of microbiome in NEC, LOS and the control groups. \\ Genus of relative abundance over 10\% were depicted. (A) control group. (B) NEC group. (C) LOS group.}
+  \label{fig:taxa-time}
+\end{figure}
