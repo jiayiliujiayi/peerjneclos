@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: manu-forref.aux
+The style file: apalike.bst
+Database file #1: manu.bib
+You've used 94 entries,
+            1935 wiz_defined-function locations,
+            1010 strings with 29600 characters,
+and the built_in function-call counts, 50170 in all, are:
+= -- 4467
+> -- 3620
+< -- 24
++ -- 1365
+- -- 1338
+* -- 5044
+:= -- 9030
+add.period$ -- 284
+call.type$ -- 94
+change.case$ -- 1135
+chr.to.int$ -- 93
+cite$ -- 94
+duplicate$ -- 1345
+empty$ -- 2617
+format.name$ -- 1452
+if$ -- 9256
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 94
+newline$ -- 472
+num.names$ -- 282
+pop$ -- 978
+preamble$ -- 1
+purify$ -- 1139
+quote$ -- 0
+skip$ -- 994
+stack$ -- 0
+substring$ -- 2723
+swap$ -- 128
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 558
+warning$ -- 0
+while$ -- 315
+width$ -- 0
+write$ -- 1219

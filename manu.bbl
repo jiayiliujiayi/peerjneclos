@@ -1,11 +1,11 @@
 \begin{thebibliography}{}
 
 \bibitem[B{\"a}ckhed et~al., 2015]{backhed2015dynamics}
-B{\"a}ckhed, F., Roswall, J., Peng, Y., Feng, Q., Jia, H., Kovatcheva-Datchary,
-  P., Li, Y., Xia, Y., Xie, H., Zhong, H., et~al. (2015).
+B{\"a}ckhed, F., Roswall, J., Peng, Y., Feng, Q., Jia, H., Kovatchevadatchary,
+  P., Li, Y., Xia, Y., Xie, H., and Zhong, H. (2015).
 \newblock Dynamics and stabilization of the human gut microbiome during the
   first year of life.
-\newblock {\em Cell host \& microbe}, 17(5):690--703.
+\newblock {\em Cell Host \& Microbe}, 17(5):690--703.
 
 \bibitem[Bell et~al., 1978]{bell1978neonatal}
 Bell, M.~J., Ternberg, J.~L., Feigin, R.~D., Keating, J.~P., Marshall, R.,
@@ -30,8 +30,8 @@ Birck, M.~M., Nguyen, D.~N., Cilieborg, M.~S., Kamal, S.~S., Nielsen, D.~S.,
   Physiology}.
 
 \bibitem[Blencowe et~al., 2012]{blencowe2012national}
-Blencowe, H., Cousens, S., Oestergaard, M.~Z., Chou, D., Moller, A.-B., Narwal,
-  R., Adler, A., Garcia, C.~V., Rohde, S., Say, L., et~al. (2012).
+Blencowe, H., Cousens, S., Oestergaard, M.~Z., Chou, D., Moller, A.~B., Narwal,
+  R., Adler, A., Vera, G.~C., Rohde, S., and Say, L. (2012).
 \newblock National, regional, and worldwide estimates of preterm birth rates in
   the year 2010 with time trends since 1990 for selected countries: a
   systematic analysis and implications.
@@ -57,7 +57,7 @@ Brook, I. (2008).
 Bury, R.~G. and Tudehope, D. (2001).
 \newblock Enteral antibiotics for preventing necrotizing enterocolitis in low
   birthweight or preterm infants.
-\newblock {\em Cochrane Database of Systematic Reviews}, (1).
+\newblock {\em Cochrane Database of Systematic Reviews}, 2(2).
 
 \bibitem[Cani, 2019]{cani2019severe}
 Cani, P.~D. (2019).
@@ -74,8 +74,8 @@ Cantey, J.~B., Pyle, A.~K., Wozniak, P.~S., Hynan, L.~S., and S{\'a}nchez,
 
 \bibitem[Caporaso et~al., 2010]{caporaso2010qiime}
 Caporaso, J.~G., Kuczynski, J., Stombaugh, J., Bittinger, K., Bushman, F.~D.,
-  Costello, E.~K., Fierer, N., Pena, A.~G., Goodrich, J.~K., Gordon, J.~I.,
-  et~al. (2010).
+  Costello, E.~K., Fierer, N., Peã±A, A.~G., Goodrich, J.~K., and Gordon,
+  J.~I. (2010).
 \newblock Qiime allows analysis of high-throughput community sequencing data.
 \newblock {\em Nature methods}, 7(5):335.
 
@@ -137,7 +137,8 @@ Ficara, M., Pietrella, E., Spada, C., Della Casa~Muttini, E., Lucaccioni, L.,
 
 \bibitem[Fouhy et~al., 2012]{fouhy2012high}
 Fouhy, F., Guinane, C.~M., Hussey, S., Wall, R., Ryan, C.~A., Dempsey, E.~M.,
-  Murphy, B., Ross, R.~P., Fitzgerald, G.~F., Stanton, C., et~al. (2012).
+  Murphy, B., Ross, R.~P., Fitzgerald, G.~F., Stanton, C., and Cotter, P.~D.
+  (2012).
 \newblock High-throughput sequencing reveals the incomplete, short-term
   recovery of infant gut microbiota following parenteral antibiotic treatment
   with ampicillin and gentamicin.
@@ -155,7 +156,9 @@ Gibson, M.~K., Crofts, T.~S., and Dantas, G. (2015).
 
 \bibitem[Giongo et~al., 2011]{giongo2011toward}
 Giongo, A., Gano, K.~A., Crabb, D.~B., Mukherjee, N., Novelo, L.~L., Casella,
-  G., Drew, J.~C., Ilonen, J., Knip, M., Hy{\"o}ty, H., et~al. (2011).
+  G., Drew, J.~C., Ilonen, J., Knip, M., Hyöty, H., Veijola, R., Simell, T.,
+  Simell, O., Neu, J., Wasserfall, C.~H., Schatz, D., Atkinson, M.~A., and
+  Triplett, E.~W. (2011).
 \newblock Toward defining the autoimmune microbiome for type 1 diabetes.
 \newblock {\em The ISME journal}, 5(1):82.
 
@@ -176,14 +179,16 @@ Greenwood, C., Morrow, A.~L., Lagomarcino, A.~J., Altaye, M., Taft, D.~H., Yu,
 
 \bibitem[Grier et~al., 2017]{grier2017impact}
 Grier, A., Qiu, X., Bandyopadhyay, S., Holden-Wiltse, J., Kessler, H.~A., Gill,
-  A.~L., Hamilton, B., Huyck, H., Misra, S., Mariani, T.~J., et~al. (2017).
+  A.~L., Hamilton, B., Huyck, H., Misra, S., Mariani, T.~J., Ryan, R.~M.,
+  Scholer, L., Scheible, K.~M., Lee, Y.-H., Caserta, M.~T., Pryhuber, G.~S.,
+  and Gill, S.~R. (2017).
 \newblock Impact of prematurity and nutrition on the developing gut microbiome
   and preterm infant growth.
 \newblock {\em Microbiome}, 5(1):158.
 
 \bibitem[Hays et~al., 2016]{hays2016probiotics}
 Hays, S., Jacquot, A., Gauthier, H., Kempf, C., Beissel, A., Pidoux, O.,
-  Jumas-Bilak, E., Decullier, E., Lachambre, E., Beck, L., et~al. (2016).
+  Jumas-Bilak, E., Decullier, E., Lachambre, E., and Beck, L. (2016).
 \newblock Probiotics and growth in preterm infants: A randomized controlled
   trial, premapro study.
 \newblock {\em Clinical Nutrition}, 35(4):802--811.
@@ -196,9 +201,8 @@ Hermansson, H., Kumar, H., Collado, M.~C., Salminen, S., Isolauri, E., and
 \newblock {\em Frontiers in nutrition}, 6.
 
 \bibitem[Hintz et~al., 2005]{hintz2005neurodevelopmental}
-Hintz, S.~R., Kendrick, D.~E., Stoll, B.~J., Vohr, B.~R., Fanaroff, A.~A.,
-  Donovan, E.~F., Poole, W.~K., Blakely, M.~L., Wright, L., Higgins, R., et~al.
-  (2005).
+Hintz, S.~R., Kendrick~DEStoll, B.~J., Vohr, B.~R., Fanaroff, A.~A., Donovan,
+  E.~F., Poole, W.~K., Blakely, M.~L., Wright, L., and Higgins, R. (2005).
 \newblock Neurodevelopmental and growth outcomes of extremely low birth weight
   infants after necrotizing enterocolitis.
 \newblock {\em Pediatrics}, 115(3):696--703.
@@ -217,8 +221,8 @@ Jacquot, A., Neveu, D., Aujoulat, F., Mercier, G., Marchandin, H., Jumas-Bilak,
 \newblock {\em The Journal of pediatrics}, 158(3):390--396.
 
 \bibitem[Jensen et~al., 2013]{jensen2013antibiotics}
-Jensen, M.~L., Thymann, T., Cilieborg, M.~S., Lykke, M., M{\o}lbak, L., Jensen,
-  B.~B., Schmidt, M., Kelly, D., Mulder, I., Burrin, D.~G., et~al. (2013).
+Jensen, M.~L., Thymann, T., Cilieborg, M.~S., Lykke, M., Mølbak, L., Jensen,
+  B.~B., Schmidt, M., Kelly, D., Mulder, I., and Burrin, D.~G. (2013).
 \newblock Antibiotics modulate intestinal immunity and prevent necrotizing
   enterocolitis in preterm neonatal piglets.
 \newblock {\em American Journal of Physiology-Heart and Circulatory
@@ -262,10 +266,10 @@ Khodayar-Pardo, P., Mira-Pascual, L., Collado, M., and Martinez-Costa, C.
 \newblock {\em Journal of Perinatology}, 34(8):599.
 
 \bibitem[Kimberlin et~al., 2018]{kimberlin2018red}
-Kimberlin, D.~W. et~al. (2018).
+Kimberlin, D.~W., Brady, M.~T., Jackson, M.~A., and Long, S.~S. (2018).
 \newblock {\em Red Book: 2018-2021 report of the committee on infectious
   diseases.}
-\newblock Number Ed. 31. American academy of pediatrics.
+\newblock American academy of pediatrics, 31 edition.
 
 \bibitem[Korpela et~al., 2018]{korpela2018intestinal}
 Korpela, K., Blakstad, E.~W., Moltu, S.~J., Str{\o}mmen, K., Nakstad, B.,
@@ -283,8 +287,9 @@ Kuppala, V.~S., Meinzen-Derr, J., Morrow, A.~L., and Schibler, K.~R. (2011).
 
 \bibitem[La~Rosa et~al., 2014]{la2014patterned}
 La~Rosa, P.~S., Warner, B.~B., Zhou, Y., Weinstock, G.~M., Sodergren, E.,
-  Hall-Moore, C.~M., Stevens, H.~J., Bennett, W.~E., Shaikh, N., Linneman,
-  L.~A., et~al. (2014).
+  Hall-Moore, C.~M., Stevens, H.~J., Bennett, William~E, J., Shaikh, N.,
+  Linneman, L.~A., Hoffmann, J.~A., Hamvas, A., Deych, E., Shands, B.~A.,
+  Shannon, W.~D., and Tarr, P.~I. (2014).
 \newblock Patterned progression of bacterial populations in the premature
   infant gut.
 \newblock {\em Proceedings of the National Academy of Sciences},
@@ -304,9 +309,9 @@ Madan, J.~C., Farzan, S.~F., Hibberd, P.~L., and Karagas, M.~R. (2012a).
 \newblock {\em Current opinion in pediatrics}, 24(6):753.
 
 \bibitem[Madan et~al., 2012b]{madan2012gut}
-Madan, J.~C., Salari, R.~C., Saxena, D., Davidson, L., O'toole, G.~A., Moore,
-  J.~H., Sogin, M.~L., Foster, J.~A., Edwards, W.~H., Palumbo, P., et~al.
-  (2012b).
+Madan, J.~C., Salari, R.~C., Saxena, D., Davidson, L., O'Toole, G.~A., Moore,
+  J.~H., Sogin, M.~L., Foster, J.~A., Edwards, W.~H., Palumbo, P., and Hibberd,
+  P.~L. (2012b).
 \newblock Gut microbial colonisation in premature neonates predicts neonatal
   sepsis.
 \newblock {\em Archives of Disease in Childhood-Fetal and Neonatal Edition},
@@ -327,15 +332,14 @@ Mai, V., Torrazza, R.~M., Ukhanova, M., Wang, X., Sun, Y., Li, N., Shuster, J.,
 
 \bibitem[Mai et~al., 2011]{mai2011fecal}
 Mai, V., Young, C.~M., Ukhanova, M., Wang, X., Sun, Y., Casella, G., Theriaque,
-  D., Li, N., Sharma, R., Hudak, M., et~al. (2011).
+  D., Li, N., Sharma, R., Hudak, M., and Neu, J. (2011).
 \newblock Fecal microbiota in premature infants prior to necrotizing
   enterocolitis.
 \newblock {\em PloS one}, 6(6):e20647.
 
 \bibitem[Martinez et~al., 2017]{martinez2017early}
-Martinez, F.~E., Ferri, W.~A., Leone, C.~R., De~Almeida, M. F.~B., Guinsburg,
-  R., do~Amaral~Meneses, J., do~Vale, M.~S., Marba, S. T.~M., De~Carvalho,
-  W.~B., de~Souza~Rugolo, L. M.~S., et~al. (2017).
+Martinez, F.~E., Wag, F., Leone, C.~R., Mfb, D.~A., Guinsburg, R., Jda, M.,
+  Msd, V., Stm, M., Carvalho, W.~B., and Lmss, R. (2017).
 \newblock Early empiric antibiotic use is associated with delayed feeding
   tolerance in preterm infants: A retrospective analysis.
 \newblock {\em Journal of pediatric gastroenterology and nutrition},
@@ -378,7 +382,7 @@ Pereira, F.~L., J{\'u}nior, C. A.~O., Silva, R.~O., Dorella, F.~A., Carvalho,
 \newblock {\em Gut pathogens}, 8(1):11.
 
 \bibitem[Pickering et~al., 2012]{pickering2012red}
-Pickering, L.~K., Baker, C.~J., Kimberlin, D.~W., et~al. (2012).
+Pickering, L.~K., Baker, C.~J., and Kimberlin, D.~W. (2012).
 \newblock {\em Red Book, (2012): Report of the Committee on Infectious
   Diseases}.
 \newblock Am Acad Pediatrics.
@@ -405,7 +409,7 @@ Quast, C., Pruesse, E., Yilmaz, P., Gerken, J., Schweer, T., Yarza, P.,
 Rao, S.~C., Srinivasjois, R., and Moon, K. (2016).
 \newblock One dose per day compared to multiple doses per day of gentamicin for
   treatment of suspected or proven sepsis in neonates.
-\newblock {\em Cochrane database of systematic reviews}, (12).
+\newblock {\em Cochrane database of systematic reviews}, 6(12).
 
 \bibitem[Rodriguez et~al., 2016]{rodriguez2016clostridium}
 Rodriguez, C., Van~Broeck, J., Taminiau, B., Delm{\'e}e, M., and Daube, G.
@@ -427,16 +431,16 @@ Sampson, T.~R. and Mazmanian, S.~K. (2015).
 
 \bibitem[Savage et~al., 2018]{savage2018prospective}
 Savage, J.~H., Lee-Sarwar, K.~A., Sordillo, J., Bunyavanich, S., Zhou, Y.,
-  O'connor, G., Sandel, M., Bacharier, L.~B., Zeiger, R., Sodergren, E., et~al.
-  (2018).
+  O'Connor, G., Sandel, M., Bacharier, L.~B., Zeiger, R., Sodergren, E.,
+  Weinstock, G.~M., Gold, D.~R., Weiss, S.~T., and Litonjua, A.~A. (2018).
 \newblock A prospective microbiome-wide association study of food sensitization
   and food allergy in early childhood.
 \newblock {\em Allergy}, 73(1):145--152.
 
 \bibitem[Schloss et~al., 2009]{schloss2009introducing}
 Schloss, P.~D., Westcott, S.~L., Ryabin, T., Hall, J.~R., Hartmann, M.,
-  Hollister, E.~B., Lesniewski, R.~A., Oakley, B.~B., Parks, D.~H., Robinson,
-  C.~J., et~al. (2009).
+  Hollister, E.~B., Lesniewski, R.~A., Oakley, B.~B., Parks, D.~H., and
+  Robinson, C.~J. (2009).
 \newblock Introducing mothur: open-source, platform-independent,
   community-supported software for describing and comparing microbial
   communities.
@@ -455,10 +459,9 @@ Sears, C.~L. and Garrett, W.~S. (2014).
 \newblock {\em Cell Host \& Microbe}, 15(3):317--328.
 
 \bibitem[Shah et~al., 2015]{shah2015risk}
-Shah, J., Jefferies, A.~L., Yoon, E.~W., Lee, S.~K., Shah, P.~S., Network,
-  C.~N., et~al. (2015).
+Shah, J., Jefferies, A.~L., Yoon, E.~W., Lee, S.~K., and Shah, P.~S. (2015).
 \newblock Risk factors and outcomes of late-onset bacterial sepsis in preterm
-  neonates born at< 32 weeks' gestation.
+  neonates born at less than 32 weeks' gestation.
 \newblock {\em American journal of perinatology}, 32(07):675--682.
 
 \bibitem[Sharon et~al., 2015]{Sharon2015Gut}
@@ -481,9 +484,12 @@ Singh, B., Shah, P.~S., Afifi, J., Simpson, C.~D., Mitra, S., Dow, K., and
 \newblock {\em Journal of Perinatology}, page~1.
 
 \bibitem[Stewart et~al., 2018]{stewart2018temporal}
-Stewart, C.~J., Ajami, N.~J., O’Brien, J.~L., Hutchinson, D.~S., Smith,
-  D.~P., Wong, M.~C., Ross, M.~C., Lloyd, R.~E., Doddapaneni, H., Metcalf,
-  G.~A., et~al. (2018).
+Stewart, C.~J., Ajami, N.~J., O'Brien, J.~L., Hutchinson, D.~S., Smith, D.~P.,
+  Wong, M.~C., Ross, M.~C., Lloyd, R.~E., Doddapaneni, H., Metcalf, G.~A.,
+  Muzny, D., Gibbs, R.~A., Vatanen, T., Huttenhower, C., Xavier, R.~J., Rewers,
+  M., Hagopian, W., Toppari, J., Ziegler, A.-G., She, J.-X., Akolkar, B.,
+  Lernmark, A., Hyoty, H., Vehik, K., Krischer, J.~P., and Petrosino, J.~F.
+  (2018).
 \newblock Temporal development of the gut microbiome in early childhood from
   the teddy study.
 \newblock {\em Nature}, 562(7728):583.
@@ -498,18 +504,25 @@ Stewart, C.~J., Embleton, N.~D., Marrs, E. C.~L., Smith, D.~P., Fofanova, T.,
 
 \bibitem[Stokholm et~al., 2018]{stokholm2018maturation}
 Stokholm, J., Blaser, M.~J., Thorsen, J., Rasmussen, M.~A., Waage, J., Vinding,
-  R.~K., Schoos, A.-M.~M., Kun{\o}e, A., Fink, N.~R., Chawes, B.~L., et~al.
-  (2018).
+  R.~K., Schoos, A.-M.~M., Kunøe, A., Fink, N.~R., Chawes, B.~L., Bønnelykke,
+  K., Brejnrod, A.~D., Mortensen, M.~S., Al-Soud, W.~A., Sørensen, S.~J., and
+  Bisgaard, H. (2018).
 \newblock Maturation of the gut microbiome and risk of asthma in childhood.
 \newblock {\em Nature communications}, 9(1):141.
 
 \bibitem[Stoll et~al., 2015]{stoll2015trends}
 Stoll, B.~J., Hansen, N.~I., Bell, E.~F., Walsh, M.~C., Carlo, W.~A.,
-  Shankaran, S., Laptook, A.~R., S{\'a}nchez, P.~J., Van~Meurs, K.~P., Wyckoff,
-  M., et~al. (2015).
-\newblock Trends in care practices, morbidity, and mortality of extremely
-  preterm neonates, 1993-2012.
-\newblock {\em Jama}, 314(10):1039--1051.
+  Shankaran, S., Laptook, A.~R., Sánchez, P.~J., Van~Meurs, K.~P., Wyckoff,
+  M., Das, A., Hale, E.~C., Ball, M.~B., Newman, N.~S., Schibler, K.,
+  Poindexter, B.~B., Kennedy, K.~A., Cotten, C.~M., Watterberg, K.~L.,
+  D’Angio, C.~T., DeMauro, S.~B., Truog, W.~E., Devaskar, U., Higgins, R.~D.,
+  for the Eunice Kennedy Shriver National Institute~of Child~Health, and
+  Network, H. D. N.~R. (2015).
+\newblock {Trends in Care Practices, Morbidity, and Mortality of Extremely
+  Preterm Neonates, 1993-2012Trends in Care, Morbidity, and Mortality of
+  Extremely Preterm NeonatesTrends in Care, Morbidity, and Mortality of
+  Extremely Preterm Neonates}.
+\newblock {\em JAMA}, 314(10):1039--1051.
 
 \bibitem[Tanaka et~al., 2009]{tanaka2009influence}
 Tanaka, S., Kobayashi, T., Songjinda, P., Tateyama, A., Tsubouchi, M.,
@@ -532,8 +545,10 @@ Tarr, P.~I. and Warner, B.~B. (2016).
 
 \bibitem[Vatanen et~al., 2018]{vatanen2018human}
 Vatanen, T., Franzosa, E.~A., Schwager, R., Tripathi, S., Arthur, T.~D., Vehik,
-  K., Lernmark, {\AA}., Hagopian, W.~A., Rewers, M.~J., She, J.-X., et~al.
-  (2018).
+  K., Lernmark, {\AA}., Hagopian, W.~A., Rewers, M.~J., She, J.-X., Toppari,
+  J., Ziegler, A.-G., Akolkar, B., Krischer, J.~P., Stewart, C.~J., Ajami,
+  N.~J., Petrosino, J.~F., Gevers, D., L{\"a}hdesm{\"a}ki, H., Vlamakis, H.,
+  Huttenhower, C., and Xavier, R.~J. (2018).
 \newblock The human gut microbiome in early-onset type 1 diabetes from the
   teddy study.
 \newblock {\em Nature}, 562(7728):589.
@@ -593,13 +608,15 @@ Xiao, N. (2018).
 \bibitem[Yatsunenko et~al., 2012]{yatsunenko2012human}
 Yatsunenko, T., Rey, F.~E., Manary, M.~J., Trehan, I., Dominguez-Bello, M.~G.,
   Contreras, M., Magris, M., Hidalgo, G., Baldassano, R.~N., Anokhin, A.~P.,
-  et~al. (2012).
+  Heath, A.~C., Warner, B., Reeder, J., Kuczynski, J., Caporaso, J.~G.,
+  Lozupone, C.~A., Lauber, C., Clemente, J.~C., Knights, D., Knight, R., and
+  Gordon, J.~I. (2012).
 \newblock Human gut microbiome viewed across age and geography.
 \newblock {\em nature}, 486(7402):222.
 
 \bibitem[Zhou et~al., 2016]{zhou2016increased}
 Zhou, Y., Chen, H., He, H., Du, Y., Hu, J., Li, Y., Li, Y., Zhou, Y., Wang, H.,
-  Chen, Y., et~al. (2016).
+  and Chen, Y. (2016).
 \newblock Increased enterococcus faecalis infection is associated with
   clinically active crohn disease.
 \newblock {\em Medicine}, 95(39).

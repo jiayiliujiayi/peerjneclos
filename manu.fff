@@ -35,7 +35,7 @@
 \efloatseparator
  
 \begin{figure}[ht]\centering
-  \includegraphics[width=\linewidth]{taxon.pdf}
+  \includegraphics[width=\linewidth]{taxon2.pdf}
   \caption{Alluvial diagrams showing temporal development of microbiome in NEC, LOS and the control groups. \\ Genus of relative abundance over 10\% were depicted. (A) control group. (B) NEC group. (C) LOS group.}
   \label{fig:taxa-time}
 \end{figure}
