@@ -5,3 +5,6 @@ This is the repo for the original LaTeX file and figures:)
 ## Credits and Acknowlegements  
 **Sample collection**: Yuqing Li, Liya Pan  
 **ZIBR & LME modeling**: Li Zhang  
+
+## Published
+https://peerj.com/articles/7310/
