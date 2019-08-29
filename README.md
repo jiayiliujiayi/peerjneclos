@@ -1,6 +1,6 @@
 # Manuscript for submitting to *PeerJ — the Journal of Life and Environmental Sciences*   
-Manuscript "Patterned progression of gut microbiota in assiociation with preterm infants to necrotizing enterocolitis and late onset sepsis: prospective pilot data from a non-Western population"  
-This is the repo for the original LaTeX file and figures:)  
+Manuscript of the paper "Patterned progression of gut microbiota in assiociation with preterm infants to necrotizing enterocolitis and late onset sepsis: prospective pilot data from a non-Western population"  
+This is the repo for the source LaTeX file, tables and figures of the manuscript.    
 
 ## Credits and Acknowlegements  
 **Sample collection**: Yuqing Li, Liya Pan  
